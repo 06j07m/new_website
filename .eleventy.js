@@ -1,7 +1,5 @@
 module.exports = function (eleventyConfig) {
-  // watch and add css files
-  eleventyConfig.addPassthroughCopy('css');
-  eleventyConfig.addWatchTarget('css');
+  eleventyConfig.addPassthroughCopy({ 'src/static': 'static' });
 
   // change input and output folders
   return {
