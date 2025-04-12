@@ -1,0 +1,22 @@
+#links {
+    /* centre */
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+
+    /* make icons big */
+    font-size: 72pt;
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#links a {
+    /* add spacing around */
+    margin: 12px;
+
+}
+
+
