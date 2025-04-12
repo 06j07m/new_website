@@ -1,0 +1,15 @@
+---
+title: School bookmarks
+icon: school
+---
+
+{% for list in bookmarks.school %}
+    <h2>{{ list.section }}</h2>
+    <ul>
+        {% for link in list.bookmarks %}
+            <li>
+                <a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}

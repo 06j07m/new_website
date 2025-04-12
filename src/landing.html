@@ -1,0 +1,10 @@
+---
+title: My Links
+layout: layouts/landing.njk
+---
+
+<div id="links">
+    {% for post in collections.bookmarks %}
+        <a href=" {{ post.url}} "><i class="fa-solid fa-{{ post.data.icon }}"></i></a>
+    {% endfor %}
+</div>

@@ -1,0 +1,15 @@
+---
+title: Useful Bookmarks
+icon: bookmark
+---
+
+{% for list in bookmarks.useful %}
+    <h2>{{ list.section }}</h2>
+    <ul>
+        {% for link in list.bookmarks %}
+            <li>
+                <a href="{{ link.url }}">{{ link.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}

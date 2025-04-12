@@ -1,14 +1,29 @@
 ---
 title: Homepage
-layout: layouts/base.njk
+layout: layouts/index.njk
 ---
 
-<section class="hero is-medium is-primary is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">{{ site.title }}</h1>
-      <h2 class="subtitle">{{ site.description }}</h2>
-      {% include "partials/postlist.njk" %}
+<div id="cols">
+    <div id="col1">
+        <h1>Mona Liu</h1>
+        <h2 class="subtitle">B.Sc. Computer Science student</h2>
+        <h2>My resume</h2>
+        <p>
+            <i class="fa-solid fa-file-pdf"></i>
+            <a href="uploads/MonaLiu.pdf">MonaLiu.pdf</a>
+        </p>
+        <h2>Links</h2>
+        <p>
+            <i class="fa-brands fa-github"></i>
+            Github:
+            <a href="https://github.com/06j07m">06j07m</a>
+            <br>
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn:
+            <a href="https://linkedin.com/in/mona-832-liu">mona-832-liu</a>
+        </p>
     </div>
-  </div>
-</section>
+    <div id="col2">
+        <img id="me" src="images/profile_crop.jpg" alt="headshot">
+    </div>
+</div>
