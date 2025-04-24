@@ -49,19 +49,19 @@
         "bookmarks": [
             {
                 "url": "https://obsidian.md/",
-                "name": "Obsidian🟪"
+                "name": "Obsidian"
             },
             {
                 "url": "https://evernote.com/",
-                "name": "Evernote🟪"
+                "name": "Evernote"
             },
             {
                 "url": "https://standardnotes.com/",
-                "name": "Standard Notes🟪"
+                "name": "Standard Notes"
             },
             {
                 "url": "https://simplenote.com/",
-                "name": "SimpleNote🟪"
+                "name": "SimpleNote"
             },
             {
                 "url": "https://www.bookstackapp.com",
@@ -326,7 +326,7 @@
             },
             {
                 "url": "https://stackedit.io/",
-                "name": "Stackedit.io🟪"
+                "name": "Stackedit.io"
             },
             {
                 "url": "https://enso.sonnet.io/",
@@ -334,7 +334,7 @@
             },
             {
                 "url": "https://rentry.co/how",
-                "name": "rentry.co🟪"
+                "name": "rentry.co"
             },
             {
                 "url": "https://www.takeniftynotes.net/",
@@ -427,11 +427,11 @@
         "bookmarks": [
             {
                 "url": "https://miro.com/",
-                "name": "Miro🟪"
+                "name": "Miro"
             },
             {
                 "url": "https://www.tldraw.com/",
-                "name": "tldraw🟪"
+                "name": "tldraw"
             },
             {
                 "url": "https://tlslides.vercel.app/",
@@ -439,11 +439,11 @@
             },
             {
                 "url": "https://excalidraw.com/",
-                "name": "excalidraw🟪"
+                "name": "excalidraw"
             },
             {
                 "url": "https://okso.app/",
-                "name": "okso🟪"
+                "name": "okso"
             },
             {
                 "url": "https://java-notelab.sourceforge.net/",
@@ -503,7 +503,7 @@
             },
             {
                 "url": "https://xournalpp.github.io/",
-                "name": "Xournal++🟪"
+                "name": "Xournal++"
             }
         ]
     },
@@ -544,11 +544,11 @@
             },
             {
                 "url": "https://ultra.tf/",
-                "name": "Ultra🟪"
+                "name": "Ultra"
             },
             {
                 "url": "https://padlet.com/",
-                "name": "Padlet🟪"
+                "name": "Padlet"
             },
             {
                 "url": "https://www.eastgate.com/Tinderbox/Visualize.html",
@@ -622,7 +622,7 @@
             },
             {
                 "url": "https://ticktick.com/home",
-                "name": "TickTick🟪"
+                "name": "TickTick"
             },
             {
                 "url": "https://www.rememberthemilk.com/",
@@ -670,7 +670,7 @@
             },
             {
                 "url": "https://www.morgen.so/",
-                "name": "Morgen🟪"
+                "name": "Morgen"
             },
             {
                 "url": "https://www.any.do/",
@@ -695,7 +695,7 @@
         "bookmarks": [
             {
                 "url": "https://www.notion.so/",
-                "name": "Notion🟪"
+                "name": "Notion"
             },
             {
                 "url": "https://affine.pro/",
@@ -934,6 +934,18 @@
             {
                 "url": "https://orama-interactive.itch.io/pixelorama",
                 "name": "Pixelorama"
+            },
+            {
+                "url": "https://pixieditor.net/",
+                "name": "Pixieditor"
+            },
+            {
+                "url": "https://libresprite.github.io/#!/",
+                "name": "LibreSprite"
+            },
+            {
+                "url": "https://www.pixilart.com/draw?ref=home-page",
+                "name": "Pixilart"
             }
         ]
     },
@@ -1083,7 +1095,7 @@
             },
             {
                 "url": "https://www.libreoffice.org/",
-                "name": "LibreOffice🟪"
+                "name": "LibreOffice"
             },
             {
                 "url": "https://pdf-xchange.eu/pdf-xchange-editor/index.htm",

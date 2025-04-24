@@ -1,9 +1,8 @@
 ---
-title: School bookmarks
-icon: school
+title: Useful Bookmarks
 ---
 
-{% for list in bookmarks.school %}
+{% for list in bookmarks %}
     <h2>{{ list.section }}</h2>
     <ul>
         {% for link in list.bookmarks %}

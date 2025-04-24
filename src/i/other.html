@@ -1,9 +1,8 @@
 ---
-title: Other bookmarks
-icon: clock-rotate-left
+title: Other Bookmarks
 ---
 
-{% for list in bookmarks.other %}
+{% for list in other %}
     <h2>{{ list.section }}</h2>
     <ul>
         {% for link in list.bookmarks %}
@@ -12,4 +11,4 @@ icon: clock-rotate-left
             </li>
         {% endfor %}
     </ul>
-{% endfor %}
+{% endfor %}    

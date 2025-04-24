@@ -1,10 +1,8 @@
 ---
-title: Software bookmarks
-icon: desktop
+title: School Bookmarks
 ---
 
-<p>🟪: ok; 🟩: good; 🟥: bad</p>
-{% for list in bookmarks.software %}
+{% for list in school %}
     <h2>{{ list.section }}</h2>
     <ul>
         {% for link in list.bookmarks %}
