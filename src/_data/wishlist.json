@@ -2,341 +2,101 @@
     {
         "section": "current most wanted",
         "bookmarks": [
-            {
-                "url": "https://kiwie.bigcartel.com/product/wooden-pins",
-                "name": "Attack on titan wooden pins by kiwie",
-                "extra": " - Marco, Jean"
-            },
-            {
-                "url": "https://kiilea.bigcartel.com/product/stray-kids-maniac-holo-prints",
-                "name": "Stray kids holo posters by kiilea",
-                "extra": " - Changbin"
-            },
-            {
-                "url": "https://www.zazzle.com/hawkeye_assemble_poster-228314615136378434?dz=ae6f2fd4-7dc4-4f00-80ed-83488c2dccba",
-                "name": "Hawkeye Assemble poster",
-                "extra": " - or any other NON-MCU Hawkeye poster"
-            },
-            {
-                "url": "https://www.inprnt.com/gallery/melonnabar/",
-                "name": "Melonnabar's inprnt",
-                "extra": " - anything Blue and Gold/JLI/Kyle Rayner"
-            }
+            {"url": "https://kiwie.bigcartel.com/product/wooden-pins", "name": "Attack on titan wooden pins by kiwie", "extra": " - Marco, Jean"},
+            {"url": "https://kiilea.bigcartel.com/product/stray-kids-maniac-holo-prints", "name": "Stray kids holo posters by kiilea", "extra": " - Changbin"},
+            {"url": "https://www.zazzle.com/hawkeye_assemble_poster-228314615136378434?dz=ae6f2fd4-7dc4-4f00-80ed-83488c2dccba", "name": "Hawkeye Assemble poster", "extra": " - or any other NON-MCU Hawkeye poster"},
+            {"url": "https://www.inprnt.com/gallery/melonnabar/", "name": "Melonnabar's inprnt", "extra": " - anything Blue and Gold/JLI/Kyle Rayner"}
         ]
     },
     {
         "section": "generic options",
         "bookmarks": [
-            {
-                "url": "",
-                "name": "",
-                "extra": "spotify gift card"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "amazon gift card"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "coffee crisp"
-            }
+            {"url": "", "name": "", "extra": "spotify gift card"},
+            {"url": "", "name": "", "extra": "amazon gift card"},
+            {"url": "", "name": "", "extra": "coffee crisp"}
         ]
     },
     {
         "section": "stickers",
         "bookmarks": [
-            {
-                "url": "https://www.redbubble.com/i/sticker/Plane-Sun-by-RussellsCloset/113259271.EJUG5",
-                "name": "Top gun maverick",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Nishinoya-by-Viceroy-10/45593215.EJUG5",
-                "name": "Nishinoya",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Prat-by-nathvods/40197449.EJUG5",
-                "name": "Merlin",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Born-of-Magic-by-jaune-eclatant/69599033.EJUG5",
-                "name": "Born of magic",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Stray-kids-Skzoo-Characters-by-K-skztee/96019658.EJUG5",
-                "name": "Skzoo",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Danger-Zone-by-kheevi/97806882.EJUG5",
-                "name": "Danger zone vaporwave",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Kiss-Kiss-Bang-Bang-2005-Movie-poster-design-by-jackbooks/115665417.QK27K",
-                "name": "Kiss kiss bang bang",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Centron-Inc-by-ASCreative/11356042.EJUG5",
-                "name": "Kiss kiss bang bang Centron",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Carry-on-my-wayward-son-by-risarodil/10875943.EJUG5",
-                "name": "Carry on my wayward son",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Road-so-far-by-risarodil/10270924.EJUG5",
-                "name": "Road so far",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/CLASS-CLOWN-by-cannibalconsult/32026990.EJUG5",
-                "name": "Gabriel trueform",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/90-s-Retro-Jim-Lee-X-Men-Group-by-PopCults/60451129.EJUG5",
-                "name": "Retro X-men",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Original-Berf-of-Chicagoland-Berf-version-by-MalmoDesigns/145809779.EJUG5",
-                "name": "OG Berf of Chicagoland",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Arrival-Sci-Fi-Movie-Artwork-by-LorenzoGnech/46594584.EJUG5",
-                "name": "Arrival",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/sticker/Pacific-Rim-Kaiju-large-by-bliz/11270266.EJUG5",
-                "name": "Pacrim kaiju",
-                "extra": ""
-            }
+            {"url": "https://www.redbubble.com/i/sticker/Plane-Sun-by-RussellsCloset/113259271.EJUG5", "name": "Top gun maverick", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Nishinoya-by-Viceroy-10/45593215.EJUG5", "name": "Nishinoya", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Prat-by-nathvods/40197449.EJUG5", "name": "Merlin", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Born-of-Magic-by-jaune-eclatant/69599033.EJUG5", "name": "Born of magic", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Stray-kids-Skzoo-Characters-by-K-skztee/96019658.EJUG5", "name": "Skzoo", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Danger-Zone-by-kheevi/97806882.EJUG5", "name": "Danger zone vaporwave", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Kiss-Kiss-Bang-Bang-2005-Movie-poster-design-by-jackbooks/115665417.QK27K", "name": "Kiss kiss bang bang", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Centron-Inc-by-ASCreative/11356042.EJUG5", "name": "Kiss kiss bang bang Centron", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Carry-on-my-wayward-son-by-risarodil/10875943.EJUG5", "name": "Carry on my wayward son", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Road-so-far-by-risarodil/10270924.EJUG5", "name": "Road so far", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/CLASS-CLOWN-by-cannibalconsult/32026990.EJUG5", "name": "Gabriel trueform", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/90-s-Retro-Jim-Lee-X-Men-Group-by-PopCults/60451129.EJUG5", "name": "Retro X-men", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Original-Berf-of-Chicagoland-Berf-version-by-MalmoDesigns/145809779.EJUG5", "name": "OG Berf of Chicagoland", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Arrival-Sci-Fi-Movie-Artwork-by-LorenzoGnech/46594584.EJUG5", "name": "Arrival", "extra": ""},
+            {"url": "https://www.redbubble.com/i/sticker/Pacific-Rim-Kaiju-large-by-bliz/11270266.EJUG5", "name": "Pacrim kaiju", "extra": ""}
         ]
     },
     {
         "section": "poster",
         "bookmarks": [
-            {
-                "url": "https://www.walmart.ca/en/ip/Top-Gun-The-Need-For-Speed-Poster/667SRZ18DGCO",
-                "name": "Top gun",
-                "extra": ""
-            },
-            {
-                "url": "https://www.inprnt.com/gallery/automeru/warm-van-morning/",
-                "name": "\"Warm van morning\" print by Mariel Rodruigez",
-                "extra": ""
-            },
-            {
-                "url": "https://www.beentheredonethat.shop/products/btdt-movielogues-100-greatest-movies-scratch-off-bucket-list-poster-lover-cool-gift-wall-art-movie-theater-game-room-living-bedroom-kitchen-decor-top-film-cinema-hipster-unique-fun-minimalist-essential-vintage",
-                "name": "Movielogues",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/poster/Merlin-and-Arthur-being-dorks-Merthur-by-IvyNight/20750316.LVTDI",
-                "name": "Merlin and Arthur",
-                "extra": ""
-            },
-            {
-                "url": "https://www.redbubble.com/i/poster/The-Infinity-Train-Gang-by-lavdragoness/78201670.E40HW",
-                "name": "Infinity train",
-                "extra": ""
-            },
-            {
-                "url": "https://www.inprnt.com/gallery/bearbrickjia/jean-marco-sasha-connie-model-au/",
-                "name": "JMCS model AU print by Karmen Loh",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Supernatural - not the kind that has a giant close up of the actors' faces"
-            },
-            {
-                "url": "https://www.redbubble.com/i/poster/Jim-Morrison-The-Doors-by-seandexon953/111990634.E40HW",
-                "name": "The doors",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Mission impossible: ghost protocol"
-            },
-            {
-                "url": "https://www.redbubble.com/i/poster/Air-Time-by-LouieJoyce/57534032.LVTDI",
-                "name": "Air time",
-                "extra": " poster"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "McLaren"
-            }
+            {"url": "https://www.walmart.ca/en/ip/Top-Gun-The-Need-For-Speed-Poster/667SRZ18DGCO", "name": "Top gun", "extra": ""},
+            {"url": "https://www.inprnt.com/gallery/automeru/warm-van-morning/", "name": "\"Warm van morning\" print by Mariel Rodruigez", "extra": ""},
+            {"url": "https://www.beentheredonethat.shop/products/btdt-movielogues-100-greatest-movies-scratch-off-bucket-list-poster-lover-cool-gift-wall-art-movie-theater-game-room-living-bedroom-kitchen-decor-top-film-cinema-hipster-unique-fun-minimalist-essential-vintage", "name": "Movielogues", "extra": ""},
+            {"url": "https://www.redbubble.com/i/poster/Merlin-and-Arthur-being-dorks-Merthur-by-IvyNight/20750316.LVTDI", "name": "Merlin and Arthur", "extra": ""},
+            {"url": "https://www.redbubble.com/i/poster/The-Infinity-Train-Gang-by-lavdragoness/78201670.E40HW", "name": "Infinity train", "extra": ""},
+            {"url": "https://www.inprnt.com/gallery/bearbrickjia/jean-marco-sasha-connie-model-au/", "name": "JMCS model AU print by Karmen Loh", "extra": ""},
+            {"url": "", "name": "", "extra": "Supernatural - not the kind that has a giant close up of the actors' faces"},
+            {"url": "https://www.redbubble.com/i/poster/Jim-Morrison-The-Doors-by-seandexon953/111990634.E40HW", "name": "The doors", "extra": ""},
+            {"url": "", "name": "", "extra": "Mission impossible: ghost protocol"},
+            {"url": "https://www.redbubble.com/i/poster/Air-Time-by-LouieJoyce/57534032.LVTDI", "name": "Air time", "extra": " poster"},
+            {"url": "", "name": "", "extra": "McLaren"}
         ]
     },
     {
         "section": "stationery and books",
         "bookmarks": [
-            {
-                "url": "https://www.jetpens.com/Uni-NanoDia-Color-Erasable-Lead-0.5-mm-Mix-7-Color-Set/pd/17957",
-                "name": "Uni NanoDia 0.5mm coloured lead",
-                "extra": ""
-            },
-            {
-                "url": "https://a.co/d/0gOhj0s",
-                "name": "Cartesian plane/graphing grid sticky notes",
-                "extra": " - even better if you can find transparent ones"
-            },
-            {
-                "url": "https://keyshorts.com/products/colemak-bilingual-keyboard-sticker?_pos=2&_sid=514792d6c&_ss=r",
-                "name": "Colemak Layout Keyboard stickers",
-                "extra": " - Option: Windows Custom; Laptop name: Acer Aspire A515-54; Original language: French (Canadian); Original language colour: (255, 255, 255); Additional language: Colemak; Additional language colour: (255, 230, 66); Background colour: (0, 0, 0); Repeat identical symbols: No"
-            },
-            {
-                "url": "https://a.co/d/2zXtQAI",
-                "name": "2mm coloured lead",
-                "extra": ""
-            },
-            {
-                "url": "https://wonderpens.ca/collections/pens-fineliner/products/center-pilot-drawing-pen-center",
-                "name": "Pilot drawing pen",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Nice notebooks - any brand is fine"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Erasable highlighters"
-            },
-            {
-                "url": "https://www.jetpens.com/JetPens-Off-Black-Gel-Pen-Sampler/pd/24548#index=0",
-                "name": "JetPens Off Black Gel Pen Sampler",
-                "extra": ""
-            },
-            {
-                "url": "https://a.co/d/1DFb9LQ+",
-                "name": "The Woks of Life Cookbook",
-                "extra": ""
-            },
-            {
-                "url": "https://www.chapters.indigo.ca/en-ca/books/supernatural-the-official-cookbook-burgers/9781683837459-item.html",
-                "name": "Supernatural Official Cookbook",
-                "extra": ""
-            }
+            {"url": "https://www.jetpens.com/Uni-NanoDia-Color-Erasable-Lead-0.5-mm-Mix-7-Color-Set/pd/17957", "name": "Uni NanoDia 0.5mm coloured lead", "extra": ""},
+            {"url": "https://a.co/d/0gOhj0s", "name": "Cartesian plane/graphing grid sticky notes", "extra": " - even better if you can find transparent ones"},
+            {"url": "https://keyshorts.com/products/colemak-bilingual-keyboard-sticker?_pos=2&_sid=514792d6c&_ss=r", "name": "Colemak Layout Keyboard stickers", "extra": " - Option: Windows Custom; Laptop name: Acer Aspire A515-54; Original language: French (Canadian); Original language colour: (255, 255, 255); Additional language: Colemak; Additional language colour: (255, 230, 66); Background colour: (0, 0, 0); Repeat identical symbols: No"},
+            {"url": "https://a.co/d/2zXtQAI", "name": "2mm coloured lead", "extra": ""},
+            {"url": "https://wonderpens.ca/collections/pens-fineliner/products/center-pilot-drawing-pen-center", "name": "Pilot drawing pen", "extra": ""},
+            {"url": "", "name": "", "extra": "Nice notebooks - any brand is fine"},
+            {"url": "", "name": "", "extra": "Erasable highlighters"},
+            {"url": "https://www.jetpens.com/JetPens-Off-Black-Gel-Pen-Sampler/pd/24548#index=0", "name": "JetPens Off Black Gel Pen Sampler", "extra": ""},
+            {"url": "https://a.co/d/1DFb9LQ+", "name": "The Woks of Life Cookbook", "extra": ""},
+            {"url": "https://www.chapters.indigo.ca/en-ca/books/supernatural-the-official-cookbook-burgers/9781683837459-item.html", "name": "Supernatural Official Cookbook", "extra": ""}
         ]
     },
     {
         "section": "clothes and accessories",
         "bookmarks": [
-            {
-                "url": "https://kiwie.bigcartel.com/product/snk-characters-badge",
-                "name": "Attack on titan character pins by kiwie",
-                "extra": " - Marco, Jean, Connie, Sasha, Hange"
-            },
-            {
-                "url": "https://www.spencersonline.com/product/face-off-t-shirt-attack-on-titan/230428.uts?Extid=sf_froogle",
-                "name": "Attack on titan shirt",
-                "extra": ""
-            },
-            {
-                "url": "https://www.spencersonline.com/product/strange-days-t-shirt-the-doors/235235.uts",
-                "name": "The Doors shirt",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Top gun volleyball shirt"
-            },
-            {
-                "url": "https://a.co/d/3a99ITC",
-                "name": "Fidget ring",
-                "extra": ""
-            },
-            {
-                "url": "https://trashmerch.ca/collections/frontpage/products/follow-your-fears-patch-ocean-waves-art-original-design-printed-on-canvas",
-                "name": "Follow your fears patch",
-                "extra": ""
-            },
-            {
-                "url": "https://www.etsy.com/ca/listing/1130941587/the-limited-edition-3x4-patch?click_key=ec90a9939d7a7d4e5fb1dc02d9cad1192cce9223%3A1130941587&click_sum=5a0541e9&ref=shop_home_active_35&frs=1",
-                "name": "THE. patch",
-                "extra": ""
-            },
-            {
-                "url": "https://goodr.com/collections/mach-gs/products/chard-to-love",
-                "name": "Goodr sunglasses",
-                "extra": ""
-            }
+            {"url": "https://kiwie.bigcartel.com/product/snk-characters-badge", "name": "Attack on titan character pins by kiwie", "extra": " - Marco, Jean, Connie, Sasha, Hange"},
+            {"url": "https://www.spencersonline.com/product/face-off-t-shirt-attack-on-titan/230428.uts?Extid=sf_froogle", "name": "Attack on titan shirt", "extra": ""},
+            {"url": "https://www.spencersonline.com/product/strange-days-t-shirt-the-doors/235235.uts", "name": "The Doors shirt", "extra": ""},
+            {"url": "", "name": "", "extra": "Top gun volleyball shirt"},
+            {"url": "https://a.co/d/3a99ITC", "name": "Fidget ring", "extra": ""},
+            {"url": "https://trashmerch.ca/collections/frontpage/products/follow-your-fears-patch-ocean-waves-art-original-design-printed-on-canvas", "name": "Follow your fears patch", "extra": ""},
+            {"url": "https://www.etsy.com/ca/listing/1130941587/the-limited-edition-3x4-patch?click_key=ec90a9939d7a7d4e5fb1dc02d9cad1192cce9223%3A1130941587&click_sum=5a0541e9&ref=shop_home_active_35&frs=1", "name": "THE. patch", "extra": ""},
+            {"url": "https://goodr.com/collections/mach-gs/products/chard-to-love", "name": "Goodr sunglasses", "extra": ""}
         ]
     },
     {
         "section": "home and kitchen",
         "bookmarks": [
-            {
-                "url": "https://www.amazon.ca/gp/product/B088SDCY69",
-                "name": "Coleman campfire scented candles",
-                "extra": ""
-            },
-            {
-                "url": "https://www.adagio.com/signature_blend/blend.html?blend=37545",
-                "name": "Lestrade tea",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Lunch thermos"
-            }
+            {"url": "https://www.amazon.ca/gp/product/B088SDCY69", "name": "Coleman campfire scented candles", "extra": ""},
+            {"url": "https://www.adagio.com/signature_blend/blend.html?blend=37545", "name": "Lestrade tea", "extra": ""},
+            {"url": "", "name": "", "extra": "Lunch thermos"}
         ]
     },
     {
         "section": "sports and outdoors",
         "bookmarks": [
-            {
-                "url": "https://www.canadiantire.ca/en/pdp/reflective-safety-tape-roll-red-white-2-x-36-in-0416062p.0416062.html?rrecName=Similar%20Items%20&rrecReferrer=product&rrecProductId=0416062P&rrecProductSlot=5&rrecSchemeId=product1_rr&rrec=true",
-                "name": "Reflective tape",
-                "extra": ""
-            },
-            {
-                "url": "https://www.canadiantire.ca/en/pdp/supercycle-steel-large-rear-view-handlebar-bike-mirror-black-0734218p.0734218.html?loc=plp",
-                "name": "Bike rearview mirror",
-                "extra": ""
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Seeds of plants - must be native to Windsor/Essex county"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Skateboard"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Rollerblade wheels - set of 8"
-            },
-            {
-                "url": "",
-                "name": "",
-                "extra": "Inline skate bag"
-            }
+            {"url": "https://www.canadiantire.ca/en/pdp/reflective-safety-tape-roll-red-white-2-x-36-in-0416062p.0416062.html?rrecName=Similar%20Items%20&rrecReferrer=product&rrecProductId=0416062P&rrecProductSlot=5&rrecSchemeId=product1_rr&rrec=true", "name": "Reflective tape", "extra": ""},
+            {"url": "https://www.canadiantire.ca/en/pdp/supercycle-steel-large-rear-view-handlebar-bike-mirror-black-0734218p.0734218.html?loc=plp", "name": "Bike rearview mirror", "extra": ""},
+            {"url": "", "name": "", "extra": "Seeds of plants - must be native to Windsor/Essex county"},
+            {"url": "", "name": "", "extra": "Skateboard"},
+            {"url": "", "name": "", "extra": "Rollerblade wheels - set of 8"},
+            {"url": "", "name": "", "extra": "Inline skate bag"}
         ]
     }
 ]

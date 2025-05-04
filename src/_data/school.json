@@ -2,82 +2,25 @@
     {
         "section": "all",
         "bookmarks": [
-            {
-                "url": "https://maps.mcgill.ca/",
-                "name": "Campus map"
-            },
-            {
-                "url": "https://vsb.mcgill.ca/vsb/criteria.jsp?access=0&lang=en&tip=1&page=results&scratch=0&term=0&sort=none&filters=iiiiiiiii&bbs=&ds=&cams=Distance_Downtown_Macdonald_Off-Campus&locs=any&isrts=",
-                "name": "Visual schedule builder (VSB)"
-            },
-            {
-                "url": "https://course-dag.matrixmaster.me/",
-                "name": "Course map"
-            },
-            {
-                "url": "https://mcgill.courses/explore",
-                "name": "Prettier course calendar"
-            },
-            {
-                "url": "https://www.mcgill.ca/library/services/innovation-commons/3d-printing",
-                "name": "3d printing"
-            },
-            {
-                "url": "https://www.mcgill.ca/library/services/studyareas/quiet",
-                "name": "Quiet study areas"
-            },
-            {
-                "url": "https://docs.google.com/spreadsheets/d/19y_cGcsHwZKm8vrZg8kye_XpXYFHqln6KXpxWJjvpfU/edit?gid=0#gid=0",
-                "name": "OMG workspaces"
-            },
-            {
-                "url": "https://www.mcgill.ca/library/services/hours",
-                "name": "Library hours"
-            },
-            {
-                "url": "https://libraryrooms.mcgill.ca/",
-                "name": "Library room bookings"
-            },
-            {
-                "url": "https://www.mcgill.ca/onecard/where-use",
-                "name": "Onecard locations"
-            },
-            {
-                "url": "https://www.mcgill.ca/foodservices/locations/dining-hall-menus",
-                "name": "Dining hall menus"
-            },
-            {
-                "url": "https://www.mcgill.ca/foodservices/locations/hours-service",
-                "name": "Dining hall hours"
-            },
-            {
-                "url": "https://susmcgill.ca/science-syllabus-repository",
-                "name": "SUS syllabus repository"
-            },
-            {
-                "url": "https://sumsmcgill.ca/sums-notesbank/",
-                "name": "SUMS notes bank"
-            },
-            {
-                "url": "https://ctf.science.mcgill.ca/for_students/printing.html",
-                "name": "CTF printer status/locations"
-            },
-            {
-                "url": "https://www.mcgill.ca/students/housing/files/students.housing/good_neighbor_guide.pdf",
-                "name": "Housing guide"
-            },
-            {
-                "url": "https://www.mcgill.ca/studentaid/finances/cash-tips",
-                "name": "Saving money"
-            },
-            {
-                "url": "https://www.mcgill.ca/tls/students/stayontrack",
-                "name": "Studying tips"
-            },
-            {
-                "url": "https://www.mcgill.ca/caps/files/caps/quick_guide_to_building_your_experience_on_campus_updated_august_2024.pdf",
-                "name": "Campus jobs (Aug 2024)"
-            }
+            {"url": "https://maps.mcgill.ca/", "name": "Campus map"},
+            {"url": "https://vsb.mcgill.ca/vsb/criteria.jsp?access=0&lang=en&tip=1&page=results&scratch=0&term=0&sort=none&filters=iiiiiiiii&bbs=&ds=&cams=Distance_Downtown_Macdonald_Off-Campus&locs=any&isrts=", "name": "Visual schedule builder (VSB)"},
+            {"url": "https://course-dag.matrixmaster.me/", "name": "Course map"},
+            {"url": "https://mcgill.courses/explore", "name": "Prettier course calendar"},
+            {"url": "https://www.mcgill.ca/library/services/innovation-commons/3d-printing", "name": "3d printing"},
+            {"url": "https://www.mcgill.ca/library/services/studyareas/quiet", "name": "Quiet study areas"},
+            {"url": "https://docs.google.com/spreadsheets/d/19y_cGcsHwZKm8vrZg8kye_XpXYFHqln6KXpxWJjvpfU/edit?gid=0#gid=0", "name": "OMG workspaces"},
+            {"url": "https://www.mcgill.ca/library/services/hours", "name": "Library hours"},
+            {"url": "https://libraryrooms.mcgill.ca/", "name": "Library room bookings"},
+            {"url": "https://www.mcgill.ca/onecard/where-use", "name": "Onecard locations"},
+            {"url": "https://www.mcgill.ca/foodservices/locations/dining-hall-menus", "name": "Dining hall menus"},
+            {"url": "https://www.mcgill.ca/foodservices/locations/hours-service", "name": "Dining hall hours"},
+            {"url": "https://susmcgill.ca/science-syllabus-repository", "name": "SUS syllabus repository"},
+            {"url": "https://sumsmcgill.ca/sums-notesbank/", "name": "SUMS notes bank"},
+            {"url": "https://ctf.science.mcgill.ca/for_students/printing.html", "name": "CTF printer status/locations"},
+            {"url": "https://www.mcgill.ca/students/housing/files/students.housing/good_neighbor_guide.pdf", "name": "Housing guide"},
+            {"url": "https://www.mcgill.ca/studentaid/finances/cash-tips", "name": "Saving money"},
+            {"url": "https://www.mcgill.ca/tls/students/stayontrack", "name": "Studying tips"},
+            {"url": "https://www.mcgill.ca/caps/files/caps/quick_guide_to_building_your_experience_on_campus_updated_august_2024.pdf", "name": "Campus jobs (Aug 2024)"}
         ]
     }
 ]
