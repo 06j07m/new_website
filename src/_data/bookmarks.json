@@ -68,7 +68,8 @@
             {"url": "http://www.stringfigures.info/cfj/", "name": "String Figures"},
             {"url": "https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2", "name": "Fold 'N Fly"},
             {"url": "https://friendship-bracelets.net/patterns", "name": "friendship-bracelets.net"},
-            {"url": "https://www.braceletbook.com/patterns/?type=n", "name": "BraceletBook"}
+            {"url": "https://www.braceletbook.com/patterns/?type=n", "name": "BraceletBook"},
+            {"url": "https://scoubidous.eu/index1.php", "name": "Scoubidous"}
         ]
     },
     {
@@ -430,7 +431,8 @@
             {"url": "https://vimhelp.org/", "name": "Vim: help.txt"},
             {"url": "https://ndpsoftware.com/git-cheatsheet.html#loc=local_repo;", "name": "Git Cheatsheet"},
             {"url": "https://html-css-js.com/html/", "name": "HTML cheatsheet"},
-            {"url": "https://brandingstyleguides.com/", "name": "The branding style guidelines documents archive"}
+            {"url": "https://brandingstyleguides.com/", "name": "The branding style guidelines documents archive"},
+            {"url": "https://www.je-parle-quebecois.com/", "name": "Je Parle Quebecois"}
         ]
 	},
     {
