@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Keep Calm';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/~mliu102/assets/Keep_Calm/KeepCalm-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/~mliu102/assets/Futura/FuturaLight.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/~mliu102/assets/Futura/FuturaBook.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/~mliu102/assets/Futura/FuturaBold.otf') format('opentype');
+}
+

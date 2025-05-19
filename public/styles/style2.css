@@ -1,0 +1,88 @@
+.site {
+    /* background across all pages */
+    background-image: url("../images/landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* font across all pages */
+    font-family: "Futura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+}
+
+.main {
+	/* margins, center align */
+	width: 60%;
+	margin: 48px auto;
+
+	padding: 48px;
+
+    /* make a box?? */
+    background-color: rgba(244, 240, 248, 0.52) /* #f4f0f885 */;
+    border-radius: 20px;
+
+	/* take up the entire page so footer stays at the bottom */
+	min-height: 80%;
+}
+
+.link {
+	text-decoration: underline wavy;
+	color: #000000;
+}
+
+.linkList__link:hover {
+    font-weight: 700;
+}
+
+.linkList__item {
+    line-height: 1.5em;
+}
+
+.title {
+	/* font */
+	font-size: 42pt;
+	font-family: "Keep Calm", sans-serif;
+}
+
+.sectionTitle {
+	/* font */
+	font-size: 18pt;
+	font-family: "Keep Calm", sans-serif;
+}
+
+.sectionBody {
+	/* font */
+	font-size: 12pt;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        /* make it bigger on small screens */
+        width: 80%;
+        padding: 18px;
+        /* allow word wrap? */
+        word-wrap: break-word;
+    }
+    .title {
+        font-size: 28pt;
+    }
+    .sectionTitle {
+        font-size: 14pt;
+    }
+    
+}
+
+.footer {    
+    /* spacing and centre */
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.copyright {
+	/* small text */
+	font-size: 9pt;
+}

@@ -1,10 +1,12 @@
 <head>
     {% include "../partials/head.njk" %}
 </head>
-<body>
-    {% include "../partials/navbar.njk" %}
-    <main>
-        <h1>{{ title }}</h1>
+<body class="site">
+    {% if "/i/" not in page.url %}
+        {% include "../partials/navbar.njk" %}
+    {% endif %}
+    <main class="main">
+        <h1 class="title">{{ title }}</h1>
         {{ content | safe }}
     </main>
     {% include "../partials/footer.njk" %}

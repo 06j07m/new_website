@@ -1,118 +1,4 @@
-/* font importing */
-
-@font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto/Roboto-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto/Roboto-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto/Roboto-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: italic;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Condensed/RobotoCondensed-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Condensed/RobotoCondensed-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: italic;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Mono';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Mono/RobotoMono-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Mono';
-	font-style: italic;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Mono/RobotoMono-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Mono';
-	font-style: normal;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Mono/RobotoMono-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Mono';
-	font-style: italic;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Mono/RobotoMono-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Slab';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Slab';
-	font-style: italic;
-	font-weight: 400;
-	src: url('/~mliu102/assets/Roboto_Slab/RobotoSlab-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Slab';
-	font-style: normal;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Slab/RobotoSlab-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Roboto Slab';
-	font-style: italic;
-	font-weight: 700;
-	src: url('/~mliu102/assets/Roboto_Slab/RobotoSlab-BoldItalic.ttf') format('truetype');
-}
-
-body {
+.site {
 	/* background across all pages */
 	background-color: #f4f0f8;
 
@@ -124,7 +10,7 @@ body {
 	margin: 0;
 }
 
-main {
+.main {
 	/* margins, center align */
 	width: 60%;
 	margin: 0px auto;
@@ -135,12 +21,12 @@ main {
 	min-height: 80%;
 }
 
-a {
+.link {
 	/* make links purple */
 	color: #693d94;
 }
 
-h1 {
+.title {
 	/* font */
 	font-family: "Roboto Slab", serif;
 	font-weight: 400;
@@ -148,7 +34,7 @@ h1 {
 	font-size: 42pt;
 }
 
-h2 {
+.sectionTitle {
 	/* font */
 	font-size: 18pt;
 }
@@ -158,23 +44,23 @@ h2 {
 	font-size: 24pt;
 }
 
-p {
+.sectionBody {
 	/* font */
 	font-size: 12pt;
 }
 
 @media screen and (max-width: 480px) {
-    main {
+    .main {
         /* make it bigger on small screens */
         width: 80%;
         padding: 18px;
         /* allow word wrap? */
         word-wrap: break-word;
     }
-    h1 {
+    .title {
         font-size: 28pt;
     }
-    h2 {
+    .sectionTitle {
         font-size: 14pt;
     }
     .subtitle {
@@ -183,9 +69,7 @@ p {
     
 }
 
-/* header - navigation bar */
-
-#navigation {
+.nav {
 	/* leave space around content */
 	padding: 16px;
 	margin: 0;
@@ -196,38 +80,45 @@ p {
 	display: flex;
 }
 
-#nav-left {
+.nav__left {
 	/* keep links to the very right */
 	flex-grow: 1;
-	
-	/* site title is bigger */
-	font-size: 14pt;
-	
-	/* icon and title also flexbox */
-	display: flex;
 }
 
-#nav-right {
+.nav__right {
 	/* links also flexbox */
 	display: flex;
 }
 
-#nav-icon {
-	/* pad and resize icon */
+.siteIcon--medium {
+	/* resize icon */
 	width: 24px;
-	padding-left: 12px;
-	padding-right: 12px;
 }
 
-#nav-right span {
+.navTab {
 	/* pad links in navigation */
 	padding-left: 12px;
 	padding-right: 12px;
 }
 
-/* footer - copyright bar */
+.navTab--home{
+	/* site title is bigger */
+	font-size: 14pt;
+	
+	/* icon and title also flexbox */
+	display: flex;
 
-#copyright {
+	/* make it not look like a link */
+	color: #000000;
+	text-decoration: none;
+}
+
+.nav__siteIcon {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.footer {
     /* border */
     border-top: 2px solid #7d7585;
     
@@ -237,7 +128,35 @@ p {
     text-align: center;
 }
 
-#copyright p {
+.copyright {
 	/* small text */
 	font-size: 9pt;
+}
+
+.me {
+    /* resize */
+    width: 200px;
+
+    /* round it */
+    border-radius: 50%;
+    
+    /* align top with text */
+    margin-top: 48px;
+}
+
+.columns {
+    /* make 2 columns */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+    .columns {
+		/* make 2 columns */
+		display: flex;
+		justify-content: space-between;
+        /* change to vertical stacking if screen is small */
+        flex-direction: column-reverse;
+    }
 }

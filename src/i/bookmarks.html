@@ -1,15 +1,8 @@
 ---
 title: Useful Bookmarks
-layout: layouts/links.njk
+layout: layouts/base.njk
 ---
 
 {% for list in bookmarks %}
-    <h2>{{ list.section }}</h2>
-    <ul>
-        {% for link in list.bookmarks %}
-            <li>
-                <a href="{{ link.url }}">{{ link.name }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    {% include "partials/linklist.njk" %}
 {% endfor %}

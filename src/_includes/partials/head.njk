@@ -1,9 +1,16 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="/~mliu102/styles/fonts.css"/>
-<link rel="stylesheet" href="/~mliu102/styles/style.css"/>
+
+<link rel="stylesheet" href="/~mliu102/styles/fonts{{'2' if "/i/" in page.url}}.css"/>
+<link rel="stylesheet" href="/~mliu102/styles/style{{'2' if "/i/" in page.url}}.css"/>
+
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
 <link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
+
+{% if '/i/' in page.url %}
+<title>{{ title }} :)</title>
+{% else %}
 <title>{{ title }} | Mona Liu</title>
+{% endif %}

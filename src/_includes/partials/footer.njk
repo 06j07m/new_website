@@ -1,3 +1,9 @@
-<footer id="copyright">
-    <p>© 2025 Mona Liu. Site generated with <a href="https://www.11ty.dev">11ty</a>. <a href="https://www.cbc.ca/news/canada/windsor/marco-kurepa-windsor-lynn-canyon-fall-vancouver-1.7306934"><i class="fa-solid fa-cross"></i></a></p>
+<footer class="footer">
+    <p class="copyright">
+        © 2025 Mona Liu. 
+        Site generated with <a class="link" href="https://www.11ty.dev">11ty</a>. 
+        {% if "/i/" in page.url %}
+            Background image from <a class="link" href="https://barnimages.com/">barnimages</a>.
+        {% endif %}
+        <a class="link" href="https://www.cbc.ca/news/canada/windsor/marco-kurepa-windsor-lynn-canyon-fall-vancouver-1.7306934"><i class="fa-solid fa-cross"></i></a></p>
 </footer>

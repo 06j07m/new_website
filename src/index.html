@@ -3,27 +3,21 @@ title: Home
 layout: layouts/index.njk
 ---
 
-<div id="cols">
-    <div id="col1">
-        <h1>Mona Liu</h1>
+<div class="columns">
+    <div class="columns__col">
+        <h1 class="title">Mona Liu</h1>
         <h2 class="subtitle">B.Sc. Computer Science student</h2>
-        <h2>My resume</h2>
-        <p>
-            <i class="fa-solid fa-file-pdf"></i>
-            <a href="/~mliu102/uploads/MonaLiu.pdf">MonaLiu.pdf</a>
-        </p>
-        <h2>Links</h2>
-        <p>
-            <i class="fa-brands fa-github"></i>
-            Github:
-            <a href="https://github.com/06j07m">06j07m</a>
-            <br>
-            <i class="fa-brands fa-linkedin"></i>
-            LinkedIn:
-            <a href="https://linkedin.com/in/mona-832-liu">mona-832-liu</a>
-        </p>
+        <div class="section">
+            <h2 class="sectionTitle">My resume</h2>
+            <p class="sectionBody">
+                <span class="iconLink">
+                    <i class="fa-solid fa-file-pdf iconLink__icon"></i>
+                    <a class="iconLink__link link" href="/~mliu102/uploads/MonaLiu.pdf">MonaLiu.pdf</a>
+                </span>
+            </p>
+        </div>
     </div>
-    <div id="col2">
-        <img id="me" src="/~mliu102/images/profile_crop.jpg" alt="headshot">
+    <div class="columns__col">
+        <img class="me" src="/~mliu102/images/profile_crop.jpg" alt="linkedin photo">
     </div>
 </div>
