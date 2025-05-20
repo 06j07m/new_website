@@ -160,3 +160,34 @@
         flex-direction: column-reverse;
     }
 }
+
+.construction {
+	/* border */
+	border: solid #e6c317 2px;
+	border-radius: 10px;
+
+	/* background */
+	background-color: #eee3ae;
+
+	/* flex display */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	/* make it only be as wide as it needs */
+	padding: 8px;
+	max-width: fit-content;
+}
+
+.construction__icon {
+	/* make it big */
+	font-size: 48px;
+
+	/* spacing */
+	margin: 12px;
+}
+
+.construction__text {
+	/* spacing */
+	margin: 12px;
+}
