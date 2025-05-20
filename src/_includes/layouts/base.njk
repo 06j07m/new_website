@@ -2,7 +2,9 @@
     {% include "../partials/head.njk" %}
 </head>
 <body class="site">
-    {% if "/i/" not in page.url %}
+    {% if "/i/" in page.url %}
+        {% include "../partials/backbar.njk" %}
+    {% else %}
         {% include "../partials/navbar.njk" %}
     {% endif %}
     <main class="main">

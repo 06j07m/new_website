@@ -2,7 +2,11 @@
     {% include "../partials/head.njk" %}
 </head>
 <body class="site">
-    {% include "../partials/navbar.njk" %}
+    {% if "/i/" in page.url %}
+        {% include "../partials/backbar.njk" %}
+    {% else %}
+        {% include "../partials/navbar.njk" %}
+    {% endif %}
     <main class="main">
         {{ content | safe }}
     </main>

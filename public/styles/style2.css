@@ -16,7 +16,7 @@
 .main {
 	/* margins, center align */
 	width: 60%;
-	margin: 48px auto;
+	margin: 0px auto;
 
 	padding: 48px;
 
@@ -85,4 +85,17 @@
 .copyright {
 	/* small text */
 	font-size: 9pt;
+}
+
+.nav {
+	/* leave space around content */
+	padding: 16px;
+	margin: 0;
+
+	display: flex;
+}
+
+.navTab {
+    font-size: 22pt;
+    margin-left: 24px;
 }
