@@ -1,0 +1,13 @@
+---
+title: Links
+layout: layouts/index.njk
+---
+
+<div class="links">
+    {% for link in links %}
+        <a class="linkCard" href="/~mliu102/i/{{ link.url }}">
+            <img class="linkCard__img" src="../images/{{ link.image }}" />
+            <p class="linkCard__text">{{ link.name }}</p>
+        </a>
+    {% endfor %}
+</div>

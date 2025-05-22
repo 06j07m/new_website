@@ -99,3 +99,46 @@
     font-size: 22pt;
     margin-left: 24px;
 }
+
+.linkCard {
+    /* no underline */
+    text-decoration: none;
+
+    /* spacing */
+    margin: 8px;
+}
+
+.linkCard__img {
+    /* rounded corners */
+    border-radius: 16px;
+
+    /* resize */
+    height: 160px;
+}
+
+.linkCard__text {
+    /* make font better*/
+    font-family: "Keep Calm", sans-serif;
+    font-size: 14pt;
+    color:#000000;
+
+    /* center align */
+    text-align: center;
+
+    /* remove spacing */
+    margin: 4px;
+
+    /* above image */
+    /* position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.links {
+    /* make list of cards responsive */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
