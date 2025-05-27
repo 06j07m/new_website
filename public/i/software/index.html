@@ -1,19 +1,24 @@
 <head>
     <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<link rel="stylesheet" href="/~mliu102/styles/fonts2.css"/>
-<link rel="stylesheet" href="/~mliu102/styles/style2.css"/>
-
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
 <link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
     <title>Software Bookmarks :)</title>
+    <link rel="stylesheet" href="/~mliu102/styles/fonts_i.css"/>
+    <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
+    <script>
+        $.fn.extend({
+            toggleText: function (a, b) {
+                return this.text(this.text() == b ? a : b);
+            }
+        });
+    </script>
 
-
+      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body class="site">
     
@@ -32,7 +37,7 @@
         
 
     <div class="section">
-    <h2 class="sectionTitle">journal, planner, habit tracker</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">journal, planner, habit tracker</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -79,7 +84,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">wiki, notes, markdown</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">wiki, notes, markdown</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -310,7 +315,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">text, markdown editor</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">text, markdown editor</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -461,7 +466,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">handwritten notes, whiteboard</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">handwritten notes, whiteboard</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -548,7 +553,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">visual notes, mind map</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">visual notes, mind map</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -603,7 +608,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">spreadsheet, database</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">spreadsheet, database</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -622,7 +627,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">task management, schedule, time tracker, reminder</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">task management, schedule, time tracker, reminder</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -745,7 +750,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">project management, team workspace, kanban</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">project management, team workspace, kanban</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -952,7 +957,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">chemistry</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">chemistry</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -963,7 +968,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">image editing, painting, pixel art</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">image editing, painting, pixel art</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1030,7 +1035,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">video editing</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">video editing</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1053,7 +1058,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">media player</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">media player</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1068,7 +1073,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">tag editor</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">tag editor</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1079,7 +1084,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">diagramming, wireframes, prototyping</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">diagramming, wireframes, prototyping</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1118,7 +1123,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">non slideshow presentations</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">non slideshow presentations</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1145,7 +1150,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">office</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">office</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1196,7 +1201,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">reference manager</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">reference manager</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1211,7 +1216,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">font editor</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">font editor</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1226,7 +1231,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">flashcards</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">flashcards</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1237,7 +1242,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">coding</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">coding</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1256,7 +1261,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">utilities</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">utilities</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1267,7 +1272,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">novel writing</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">novel writing</h2>
     <ul class="linkList">
         
             <li class="linkList__item">

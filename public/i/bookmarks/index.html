@@ -1,19 +1,24 @@
 <head>
     <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<link rel="stylesheet" href="/~mliu102/styles/fonts2.css"/>
-<link rel="stylesheet" href="/~mliu102/styles/style2.css"/>
-
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
 <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
 <link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
     <title>Useful Bookmarks :)</title>
+    <link rel="stylesheet" href="/~mliu102/styles/fonts_i.css"/>
+    <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
+    <script>
+        $.fn.extend({
+            toggleText: function (a, b) {
+                return this.text(this.text() == b ? a : b);
+            }
+        });
+    </script>
 
-
+      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body class="site">
     
@@ -32,26 +37,7 @@
         
 
     <div class="section">
-    <h2 class="sectionTitle">3d printing</h2>
-    <ul class="linkList">
-        
-            <li class="linkList__item">
-                <a class="linkList__link link" href="https://nasa3d.arc.nasa.gov/">NASA 3D</a>
-            </li>
-        
-            <li class="linkList__item">
-                <a class="linkList__link link" href="https://3d.nih.gov/">NIH 3D</a>
-            </li>
-        
-            <li class="linkList__item">
-                <a class="linkList__link link" href="https://3d.si.edu/">3D Digitization</a>
-            </li>
-        
-    </ul>
-</div>
-
-    <div class="section">
-    <h2 class="sectionTitle">art</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">art</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -130,7 +116,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">ascii and unicode</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">ascii and unicode</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -153,7 +139,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">avatar maker</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">avatar maker</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -172,7 +158,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">brushes</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">brushes</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -203,7 +189,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">crafts</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">crafts</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -242,11 +228,23 @@
                 <a class="linkList__link link" href="https://scoubidous.eu/index1.php">Scoubidous</a>
             </li>
         
+            <li class="linkList__item">
+                <a class="linkList__link link" href="https://nasa3d.arc.nasa.gov/">NASA 3D</a>
+            </li>
+        
+            <li class="linkList__item">
+                <a class="linkList__link link" href="https://3d.nih.gov/">NIH 3D</a>
+            </li>
+        
+            <li class="linkList__item">
+                <a class="linkList__link link" href="https://3d.si.edu/">3D Digitization</a>
+            </li>
+        
     </ul>
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">design resources</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">design resources</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -277,7 +275,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">fonts</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">fonts</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -429,7 +427,7 @@
             </li>
         
             <li class="linkList__item">
-                <a class="linkList__link link" href="https://blambot.com/en-ca">Blambot Comic Fonts &amp;amp; Lettering</a>
+                <a class="linkList__link link" href="https://blambot.com/en-ca">Blambot Comic Fonts &amp; Lettering</a>
             </li>
         
             <li class="linkList__item">
@@ -552,7 +550,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">generators</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">generators</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -587,7 +585,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">health and exercise</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">health and exercise</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -610,7 +608,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">icon sets</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">icon sets</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -825,7 +823,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">keyboard</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">keyboard</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -844,7 +842,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">language learning</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">language learning</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -883,7 +881,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">markdown and regex</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">markdown and regex</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -906,7 +904,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">media</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">media</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -937,7 +935,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">misc</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">misc</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -973,7 +971,7 @@
             </li>
         
             <li class="linkList__item">
-                <a class="linkList__link link" href="https://www.rockhall.com/inductees">Rock &amp;amp; Roll Hall of Fame</a>
+                <a class="linkList__link link" href="https://www.rockhall.com/inductees">Rock &amp; Roll Hall of Fame</a>
             </li>
         
             <li class="linkList__item">
@@ -988,7 +986,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">music</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">music</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1039,7 +1037,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">colour palettes</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">colour palettes</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1074,7 +1072,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">photography and aesthetic stock photos</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">photography and aesthetic stock photos</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1249,7 +1247,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">powerpoint/document templates</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">powerpoint/document templates</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1417,7 +1415,7 @@
             </li>
         
             <li class="linkList__item">
-                <a class="linkList__link link" href="https://docsandslides.com/googledocs/recipe/">Docs&amp;amp;Slides</a>
+                <a class="linkList__link link" href="https://docsandslides.com/googledocs/recipe/">Docs&amp;Slides</a>
             </li>
         
             <li class="linkList__item">
@@ -1440,7 +1438,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">reference</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">reference</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1503,7 +1501,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">research</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">research</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1526,7 +1524,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">science</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">science</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1569,7 +1567,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">series read online</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">series read online</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1604,7 +1602,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">shopping</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">shopping</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1631,7 +1629,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">sketchnotes</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">sketchnotes</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1658,7 +1656,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">software collections</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">software collections</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1685,7 +1683,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">streaming</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">streaming</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1744,7 +1742,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">textures and patterns</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">textures and patterns</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1783,7 +1781,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">themes, colour schemes</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">themes, colour schemes</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1830,7 +1828,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">tools</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">tools</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1854,7 +1852,7 @@
             </li>
         
             <li class="linkList__item">
-                <a class="linkList__link link" href="https://www.printfriendly.com/">Print Friendly &amp;amp; PDF</a>
+                <a class="linkList__link link" href="https://www.printfriendly.com/">Print Friendly &amp; PDF</a>
             </li>
         
             <li class="linkList__item">
@@ -1889,7 +1887,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">typography</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">typography</h2>
     <ul class="linkList">
         
             <li class="linkList__item">
@@ -1916,7 +1914,7 @@
 </div>
 
     <div class="section">
-    <h2 class="sectionTitle">vector illustrations and shapes</h2>
+    <h2 class="sectionTitle" onclick="$( this ).next().slideToggle('slow')">vector illustrations and shapes</h2>
     <ul class="linkList">
         
             <li class="linkList__item">

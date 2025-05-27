@@ -29,12 +29,16 @@
 }
 
 .link {
-	text-decoration: underline wavy;
+	text-decoration: underline;
 	color: #000000;
 }
 
+.linkList {
+    display: none;
+}
+
 .linkList__link:hover {
-    font-weight: 700;
+    text-decoration: underline wavy;
 }
 
 .linkList__item {
@@ -51,6 +55,10 @@
 	/* font */
 	font-size: 18pt;
 	font-family: "Keep Calm", sans-serif;
+
+    /* change pointer to indicate accordion */
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .sectionBody {
