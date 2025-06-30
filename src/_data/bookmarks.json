@@ -242,7 +242,10 @@
             {"url": "https://iconmonstr.com/", "name": "Iconmonstr"},
             {"url": "https://unicornicons.com/", "name": "Unicorn icons"},
             {"url": "https://www.entypo.com/", "name": "Entypo (download only)"},
-            {"url": "https://iconstore.co/", "name": "Iconstore"}
+            {"url": "https://iconstore.co/", "name": "Iconstore"},
+            {"url": "https://hugeicons.com/icons", "name": "HugeIcons"},
+            {"url": "https://dashboardicons.com/icons", "name": "Dashboard Icons"},
+            {"url": "https://icon-sets.iconify.design/", "name": "icon set database"}
         ]
 	},
     {
