@@ -1,14 +1,12 @@
 .site {
     /* background across all pages */
-    background-image: url("../images/landscape.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: #000000;
 
     /* font across all pages */
-    font-family: "Futura", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    color: #eeeeee;
 
     margin: 0;
 }
@@ -20,25 +18,21 @@
 
 	padding: 48px;
 
-    /* make a box?? */
-    background-color: rgba(244, 240, 248, 0.52) /* #f4f0f885 */;
-    border-radius: 20px;
-
 	/* take up the entire page so footer stays at the bottom */
 	min-height: 80%;
 }
 
 .link {
 	text-decoration: underline;
-	color: #000000;
+	color: #7fc7c4;
+}
+
+.link--big {
+    font-size: 16pt;
 }
 
 .linkList {
     display: none;
-}
-
-.linkList__link:hover {
-    text-decoration: underline wavy;
 }
 
 .linkList__item {
@@ -48,13 +42,13 @@
 .title {
 	/* font */
 	font-size: 42pt;
-	font-family: "Keep Calm", sans-serif;
+	font-family: "Roboto Slab", serif;
 }
 
 .sectionTitle {
 	/* font */
 	font-size: 18pt;
-	font-family: "Keep Calm", sans-serif;
+	font-family: "Roboto Slab", serif;
 
     /* change pointer to indicate accordion */
     cursor: pointer;
@@ -84,6 +78,9 @@
 }
 
 .footer {    
+    /* border */
+    border-top: 2px solid #636363;
+
     /* spacing and centre */
     margin: 0;
     padding: 12px;
@@ -100,53 +97,31 @@
 	padding: 16px;
 	margin: 0;
 
+	/* dividing border */
+	border-bottom: 2px solid #636363;
+
+	display: flex;
+}
+
+.nav__left {
+	/* keep links to the very right */
+	flex-grow: 1;
+}
+
+.nav__right {
+	/* links also flexbox */
 	display: flex;
 }
 
 .navTab {
-    font-size: 22pt;
     margin-left: 24px;
 }
 
-.linkCard {
-    /* no underline */
-    text-decoration: none;
-
-    /* spacing */
-    margin: 8px;
-}
-
-.linkCard__img {
-    /* rounded corners */
-    border-radius: 16px;
-
-    /* resize */
-    height: 160px;
-}
-
-.linkCard__text {
-    /* make font better*/
-    font-family: "Keep Calm", sans-serif;
-    font-size: 14pt;
-    color:#000000;
-
-    /* center align */
-    text-align: center;
-
-    /* remove spacing */
-    margin: 4px;
-
-    /* above image */
-    /* position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%); */
-}
-
-.links {
-    /* make list of cards responsive */
+.links__item {
+    /* make list item icon and text aligned */
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+
+    /* space out a bit */
+    padding: 2px 0px;
 }

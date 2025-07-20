@@ -1,15 +1,35 @@
 <head>
-    {% include "../partials/head.njk" %}
-      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-</head>
-<body class="site">
-    {% if "/i/" in page.url %}
-        {% include "../partials/backbar.njk" %}
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
+    <link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <link rel="stylesheet" href="/~mliu102/styles/fonts.css"/>
+
+    {% if '/i/' in page.url %}
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
+        <script>
+            $.fn.extend({
+                toggleText: function (a, b) {
+                    return this.text(this.text() == b ? a : b);
+                }
+            });
+        </script>
     {% else %}
-        {% include "../partials/navbar.njk" %}
+        <title>{{ title }} | Mona Liu</title>
+        <link rel="stylesheet" href="/~mliu102/styles/style.css"/>
     {% endif %}
+</head>
+
+<body class="site">
+    {% include "../partials/navbar.njk" %}
     <main class="main">
-        <h1 class="title">{{ title }}</h1>
         {{ content | safe }}
     </main>
     {% include "../partials/footer.njk" %}

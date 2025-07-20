@@ -1,13 +1,17 @@
 ---
 title: Links
-layout: layouts/index.njk
+layout: layouts/base.njk
 ---
 
-<div class="links">
+<ul class="links fa-ul">
     {% for link in links %}
-        <a class="linkCard" href="/~mliu102/i/{{ link.url }}">
-            <img class="linkCard__img" src="../images/{{ link.image }}" />
-            <p class="linkCard__text">{{ link.name }}</p>
-        </a>
+        <li class="links__item">
+            <span class="fa-li links__icon">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+            <a class="link link--big" href="/~mliu102/i/{{ link.url }}">
+                {{ link.name }}
+            </a>
+        </li>
     {% endfor %}
-</div>
+</ul>

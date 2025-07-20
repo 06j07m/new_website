@@ -1,56 +1,73 @@
 <head>
     <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
-<link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
-<link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
-<link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Links :)</title>
-    <link rel="stylesheet" href="/~mliu102/styles/fonts_i.css"/>
-    <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
-    <script>
-        $.fn.extend({
-            toggleText: function (a, b) {
-                return this.text(this.text() == b ? a : b);
-            }
-        });
-    </script>
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/brands.css"/>
+    <link rel="stylesheet" href="/~mliu102/assets/fontawesome/css/solid.css"/>
+    <link rel="icon" type="image/x-icon" href="/~mliu102/images/favicon_02.ico"/>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <link rel="stylesheet" href="/~mliu102/styles/fonts.css"/>
+
+    
+        <title>Links</title>
+        <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
+        <script>
+            $.fn.extend({
+                toggleText: function (a, b) {
+                    return this.text(this.text() == b ? a : b);
+                }
+            });
+        </script>
+    
 </head>
+
 <body class="site">
     
-        <header class="nav">
+    <header class="nav">
     <div class="nav__left">
         <span class="navTab">
-            <a class="navTab__link link" href="/~mliu102/i/">
-                <i class="fa-solid fa-home"></i>
-            </a>
+            <a class="navTab__link link" href="/~mliu102/i/">~</a>
+            /
+            
         </span>
     </div>
 </header>
-    
+
     <main class="main">
         
-<div class="links">
+<ul class="links fa-ul">
     
-        <a class="linkCard" href="/~mliu102/i/bookmarks/">
-            <img class="linkCard__img" src="../images/11072668623_99981daaaa_w.jpg" />
-            <p class="linkCard__text">Useful Bookmarks</p>
-        </a>
+        <li class="links__item">
+            <span class="fa-li links__icon">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+            <a class="link link--big" href="/~mliu102/i/bookmarks/">
+                Useful Bookmarks
+            </a>
+        </li>
     
-        <a class="linkCard" href="/~mliu102/i/software/">
-            <img class="linkCard__img" src="../images/11043196626_df4b909b71_w.jpg" />
-            <p class="linkCard__text">Software Bookmarks</p>
-        </a>
+        <li class="links__item">
+            <span class="fa-li links__icon">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+            <a class="link link--big" href="/~mliu102/i/software/">
+                Software Bookmarks
+            </a>
+        </li>
     
-        <a class="linkCard" href="/~mliu102/i/school/">
-            <img class="linkCard__img" src="../images/11072356246_248b477d89_w.jpg" />
-            <p class="linkCard__text">School Bookmarks</p>
-        </a>
+        <li class="links__item">
+            <span class="fa-li links__icon">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+            <a class="link link--big" href="/~mliu102/i/school/">
+                School Bookmarks
+            </a>
+        </li>
     
-</div>
+</ul>
     </main>
     <footer class="footer">
     <p class="copyright">

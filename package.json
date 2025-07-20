@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
    "scripts": {
-    "start": "eleventy --serve --incremental",
-    "build": "eleventy"
+    "start": "rm -rf public/* && eleventy --serve --incremental"
   },
   "keywords": [],
   "author": "",
