@@ -125,3 +125,9 @@
     /* space out a bit */
     padding: 2px 0px;
 }
+
+.headerImg {
+    width: 500px;
+
+    margin: 24px;
+}
