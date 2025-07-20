@@ -1,19 +1,33 @@
 ---
-title: Links
+title: links
 layout: layouts/base.njk
 ---
 
 <img class="headerImg" src="../images/20250506-barnimages-9_crop.jpg"></img>
 
 <ul class="links fa-ul">
-    {% for link in links %}
-        <li class="links__item">
-            <span class="fa-li links__icon">
-                <i class="fa-solid fa-chevron-right"></i>
-            </span>
-            <a class="link link--big" href="/~mliu102/i/{{ link.url }}">
-                {{ link.name }}
-            </a>
-        </li>
-    {% endfor %}
+    <li class="links__item">
+        <span class="fa-li links__icon">
+            <i class="fa-solid fa-chevron-right"></i>
+        </span>
+        <a class="link link--big" href="/~mliu102/i/bookmarks">
+            useful bookmarks
+        </a>
+    </li>
+    <li class="links__item">
+        <span class="fa-li links__icon">
+            <i class="fa-solid fa-chevron-right"></i>
+        </span>
+        <a class="link link--big" href="/~mliu102/i/software">
+            software bookmarks
+        </a>
+    </li>
+    <li class="links__item">
+        <span class="fa-li links__icon">
+            <i class="fa-solid fa-chevron-right"></i>
+        </span>
+        <a class="link link--big" href="/~mliu102/i/school">
+            school bookmarks
+        </a>
+    </li>
 </ul>
