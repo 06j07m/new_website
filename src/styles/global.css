@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px) {
+    .main {
+        /* make it bigger on small screens */
+        width: 80%;
+        padding: 18px;
+        /* allow word wrap? */
+        word-wrap: break-word;
+    }
+    .title {
+        font-size: 28pt;
+    }
+    .sectionTitle {
+        font-size: 14pt;
+    }
+    
+}
+
+.site {
+    /* font across all pages */
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+}
+
+.main {
+	/* margins, center align */
+	width: 60%;
+	margin: 0px auto;
+
+	padding: 48px;
+
+	/* take up the entire page so footer stays at the bottom */
+	min-height: 80%;
+}
+
+.title {
+	/* font */
+	font-family: "Roboto Slab", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 42pt;
+}
+
+.sectionTitle {
+	/* font */
+	font-size: 18pt;
+}
+
+.sectionBody {
+	/* font */
+	font-size: 12pt;
+}
+
+.nav {
+	/* leave space around content */
+	padding: 16px;
+	margin: 0;
+
+	/* dividing border */
+	border-bottom: 2px solid #7d7585;
+
+	display: flex;
+}
+
+.nav__left {
+	/* keep links to the very right */
+	flex-grow: 1;
+}
+
+.nav__right {
+	/* links also flexbox */
+	display: flex;
+}
+
+.footer {
+    /* border */
+    border-top: 2px solid #7d7585;
+    
+    /* spacing and centre */
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.copyright {
+	/* small text */
+	font-size: 9pt;
+}
+
+.construction {
+	/* border */
+	border: solid #e6c317 2px;
+	border-radius: 10px;
+
+	/* background */
+	background-color: #eee3ae;
+
+	/* flex display */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	/* make it only be as wide as it needs */
+	padding: 8px;
+	max-width: fit-content;
+}
+
+.construction__icon {
+	/* make it big */
+	font-size: 48px;
+
+	/* spacing */
+	margin: 12px;
+}
+
+.construction__text {
+	/* spacing */
+	margin: 12px;
+}
+
+.jeff {
+    /* resize */
+	width: 200px;
+
+	/* centre on page */
+	margin: 24px 0px;
+}
