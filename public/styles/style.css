@@ -191,3 +191,10 @@
 	/* spacing */
 	margin: 12px;
 }
+
+.jeff {
+	width: 200px;
+
+	/* centre on page */
+	margin: 24px 0px;
+}
