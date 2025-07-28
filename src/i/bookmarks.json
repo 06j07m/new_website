@@ -1,4 +1,5 @@
-[
+{
+"links": [
     
     {
         "section": "academics",
@@ -228,7 +229,7 @@
             {"url": "https://primer.style/foundations/icons", "name": "octicons (by github)"},
             {"url": "https://github.com/iconic/open-iconic", "name": "open iconic"},
             {"url": "https://yne.fr/picon/", "name": "picon (pico-icons)"},
-            {"url": "https://teenyicons.com/", "name": "teenyicons"},
+            {"url": "https://github.com/teenyicons/teenyicons", "name": "teenyicons"},
             {"url": "https://github.com/iconscout/unicons", "name": "unicons"},
             {"url": "https://www.zondicons.com/", "name": "zondicons"},
             {"url": "https://github.com/madebybowtie/FlagKit", "name": "flagkit (flag icons)"},
@@ -578,3 +579,4 @@
         ]
 	}
 ]
+}

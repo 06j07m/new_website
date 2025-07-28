@@ -1,4 +1,5 @@
-[
+{
+"links": [
     {
         "section": "journal, planner, habit tracker",
         "bookmarks": [
@@ -197,7 +198,8 @@
             {"url": "https://goalfocus.io/", "name": "goalfocus"},
             {"url": "https://taskwarrior.org/", "name": "taskwarrior"},
             {"url": "https://github.com/ransome1/sleek?tab=readme-ov-file", "name": "sleek"},
-            {"url": "https://steplist.app/", "name": "steplist"}
+            {"url": "https://steplist.app/", "name": "steplist"},
+            {"url": "https://briefmatic.com/", "name": "briefmatic"}
         ]
     },
     {
@@ -253,7 +255,8 @@
             {"url": "https://tilly.work/", "name": "tilly.work"},
             {"url": "https://kaneo.app/", "name": "kaneo"},
             {"url": "https://plane.so/", "name": "plane"},
-            {"url": "https://slab.com/", "name": "slab"}
+            {"url": "https://slab.com/", "name": "slab"},
+            {"url": "https://basecamp.com/", "name": "basecamp"}
         ]
     },
     {
@@ -388,4 +391,4 @@
             {"url": "https://ostorybook.eu/v6/fr/telechargement.html", "name": "ostorybook (required jdk)"}
         ]
     }
-]
+]}
