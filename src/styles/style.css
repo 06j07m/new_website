@@ -76,3 +76,41 @@
 	/* space in between columns */
 	column-gap: 24px;
 }
+
+.project {
+	/* dashed border */
+	border: dashed 2px #693d94;
+	border-radius: 10px;
+
+	/* padding and margin */
+	padding: 24px;
+	margin-top: 12px;
+	margin-bottom: 24px;
+
+	/* make it the size of the main part */
+	max-width: inherit;
+}
+
+.projectTitle {
+	/* remove spacing */
+	margin: 0px;
+}
+
+.projectImg {
+	/* keep it half the size of the section */
+	max-width: 50%;
+}
+
+.projectLinks {
+	/* add spacing */
+	margin: 8px 0px;
+}
+
+.projectTools{
+	/* make it small */
+	font-size: 10pt;
+	font-style: italic;
+
+	/* closer to title than description */
+	margin-top: 4px;
+}
