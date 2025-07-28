@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
    "scripts": {
-    "start": "eleventy --serve --incremental",
-    "save": "rm -rf public/* && eleventy"
+    "dev": "eleventy --serve --incremental",
+    "save": "rm -rf public_html/* && eleventy",
+    "deploy": "tar -c -z -f public_html.tar.gz public_html/* && scp public_html.tar.gz mimi:"
   },
   "keywords": [],
   "author": "",
