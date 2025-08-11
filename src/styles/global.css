@@ -127,3 +127,8 @@
 	/* centre on page */
 	margin: 24px 0px;
 }
+
+.bold {
+	/* bold text */
+	font-weight: bold;
+}
