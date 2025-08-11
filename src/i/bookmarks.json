@@ -177,7 +177,10 @@
             {"url": "https://www.design-research.be/by-womxn/", "name": "free fonts by women"},
             {"url": "https://www.velvetyne.fr/", "name": "velvetyne"},
             {"url": "https://fonderie.download/", "name": "fonderie"},
-            {"url": "https://usemodify.com/", "name": "use & modify"}
+            {"url": "https://usemodify.com/", "name": "use & modify"},
+            {"url": "https://www.suvatypefoundry.ee/", "name": "suva type foundry"},
+            {"url": "https://uncut.wtf/", "name": "uncut.wtf"},
+            {"url": "https://nationalparktypeface.com/", "name": "national park typeface"}
         ]
 	},
     {
@@ -303,7 +306,17 @@
     {
 		"section": "recipes",
         "bookmarks": [
-            {"url": "https://thewoksoflife.com/", "name": "the woks of life"}
+            {"url": "https://thewoksoflife.com/", "name": "the woks of life"},
+            {"url": "https://thefoodietakesflight.com/blog/", "name": "the foodie takes flight"},
+            {"url": "https://woonheng.com/", "name": "woonheng"},
+            {"url": "https://veggieanh.com/category/meal/", "name": "veggie anh"},
+            {"url": "https://www.veganricha.com/category/popular/", "name": "vegan richa"},
+            {"url": "https://theplantbasedwok.com/recipes/", "name": "the plant-based wok"},
+            {"url": "https://www.vforveganista.com/recipe-category/mains/", "name": "v for veganista"},
+            {"url": "https://www.vegrecipesofindia.com/recipes/", "name": "veg recipes of india"},
+            {"url": "https://thekoreanvegan.com/recipes/", "name": "the korean vegan"},
+            {"url": "https://thefoodiediaries.co/recipe-index/", "name": "the foodie diaries"}
+
         ]
 	},
     {
@@ -371,7 +384,9 @@
             {"url": "https://html-css-js.com/html/", "name": "html cheatsheet"},
             {"url": "https://brandingstyleguides.com/", "name": "the branding style guidelines documents archive"},
             {"url": "https://www.je-parle-quebecois.com/", "name": "je parle quebecois"},
-            {"url": "https://www.minimizemymess.com/email-bffs?ss_source=sscampaigns&amp;ss_campaign_id=622eb23c05b0504850a43fcb&amp;ss_email_id=64a227445ce07b24a5d1028e&amp;ss_campaign_name=%F0%9F%92%9A+1+of+4+%F0%9F%92%9A+Here%E2%80%99s+your+thank+you+gift&amp;ss_campaign_sent_date=2023-07-03T01%3A41%3A33Z", "name": "minimize my mess"}
+            {"url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/banque-de-depannage-linguistique", "name": "quebec banque de depannage linguistique"},
+            {"url": "https://www.minimizemymess.com/email-bffs?ss_source=sscampaigns&amp;ss_campaign_id=622eb23c05b0504850a43fcb&amp;ss_email_id=64a227445ce07b24a5d1028e&amp;ss_campaign_name=%F0%9F%92%9A+1+of+4+%F0%9F%92%9A+Here%E2%80%99s+your+thank+you+gift&amp;ss_campaign_sent_date=2023-07-03T01%3A41%3A33Z", "name": "minimize my mess"},
+            {"url": "https://ss64.com/ps/", "name": "powershell commands"}
         ]
 	},
     {
@@ -485,7 +500,8 @@
             {"url": "https://templated.co/", "name": "templated (website templates)"},
             {"url": "https://www.overleaf.com/latex/templates", "name": "overleaf templates"},
             {"url": "https://html5up.net/", "name": "html5 up"},
-            {"url": "https://tufte-latex.github.io/tufte-latex/", "name": "tufte-latex"}
+            {"url": "https://tufte-latex.github.io/tufte-latex/", "name": "tufte-latex"},
+            {"url": "https://www.thankyouletter.ws/", "name": "thank you letters"}
         ]
 	},
     {
@@ -498,7 +514,8 @@
             {"url": "https://drive.google.com/drive/folders/1vl9jHXgwDOD7o4m1_17rYYCw5aCBZTxv", "name": "all matte transition mp4 videos jonray collection final"},
             {"url": "https://projects.verou.me/css3patterns/", "name": "css patterns"},
             {"url": "https://heropatterns.com/", "name": "hero patterns"},
-            {"url": "http://thepatternlibrary.com", "name": "the pattern library"}
+            {"url": "http://thepatternlibrary.com", "name": "the pattern library"},
+            {"url": "https://texturefabrik.com/", "name": "texture fabrik"}
         ]
 	},
     {
@@ -539,7 +556,8 @@
             {"url": "https://rasterbator.net/#", "name": "rasterbator"},
             {"url": "https://emojikitchen.com/tools/wallpaper-maker", "name": "emoji wallpaper"},
             {"url": "https://readme.so/editor", "name": "readme.so"},
-            {"url": "https://haveibeenpwned.com/PwnedWebsites", "name": "have i been pwned"}
+            {"url": "https://haveibeenpwned.com/PwnedWebsites", "name": "have i been pwned"},
+            {"url": "https://visualgo.net/en", "name": "algorithm visualizer"}
         ]
 	},
     {
@@ -560,7 +578,8 @@
             {"url": "https://m3.material.io/", "name": "material design"},
             {"url": "https://stacksorted.com/buttons", "name": "stacksorted"},
             {"url": "https://logodust.com/", "name": "logodust"},
-            {"url": "https://www.designsystemsforfigma.com/", "name": "design systems for figma"}
+            {"url": "https://www.designsystemsforfigma.com/", "name": "design systems for figma"},
+            {"url": "https://www.theolympicdesign.com/olympic-games/pictograms/", "name": "olympic graphic design"}
         ]
     },
     {

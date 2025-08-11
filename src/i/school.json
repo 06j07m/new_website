@@ -38,6 +38,18 @@
             {"url": "https://www.mcgill.ca/tls/students/stayontrack", "name": "studying tips"},
             {"url": "https://www.mcgill.ca/caps/files/caps/quick_guide_to_building_your_experience_on_campus_updated_august_2024.pdf", "name": "campus jobs (aug 2024)"}
         ]
+    },
+    {
+        "section": "books",
+        "bookmarks": [
+            {"url": "https://runestone.academy/ns/books/published/thinkcspy/index.html", "name": "how to think like a computer scientist (intro to python)"},
+            {"url": "https://adv-r.hadley.nz/index.html", "name": "advanced R"},
+            {"url": "https://advanced-r-solutions.rbind.io/", "name": "advanced R solutions"},
+            {"url": "https://r4ds.hadley.nz/", "name": "R for data science"},
+            {"url": "https://tldp.org/LDP/abs/html/index.html", "name": "advanced bash scripting guide"},
+            {"url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/", "name": "essentials of linguistics"},
+            {"url": "https://textbooks.math.gatech.edu/ila/overview.html", "name": "interactive linear algebra (?)"}
+        ]
     }
     
 ]

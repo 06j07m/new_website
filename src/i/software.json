@@ -282,7 +282,12 @@
             {"url": "https://orama-interactive.itch.io/pixelorama", "name": "pixelorama"},
             {"url": "https://pixieditor.net/", "name": "pixieditor"},
             {"url": "https://libresprite.github.io/#!/", "name": "libresprite"},
-            {"url": "https://www.pixilart.com/draw?ref=home-page", "name": "pixilart"}
+            {"url": "https://www.pixilart.com/draw?ref=home-page", "name": "pixilart"},
+            {"url": "https://kleki.com/", "name": "kleki"},
+            {"url": "http://rawtherapee.com/", "name": "rawtherapee"},
+            {"url": "https://kreska.art/app/", "name": "kreska"}
+
+
         ]
     },
     {
