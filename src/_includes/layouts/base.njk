@@ -27,13 +27,6 @@
     {% if '/i/' in page.url %}
         <title>{{ title }}</title>
         <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
-        <script>
-            $.fn.extend({
-                toggleText: function (a, b) {
-                    return this.text(this.text() == b ? a : b);
-                }
-            });
-        </script>
     {% else %}
         <title>{{ title }} | Mona Liu</title>
         <link rel="stylesheet" href="/~mliu102/styles/style.css"/>
@@ -49,6 +42,9 @@
     <script>
         $(".nav__hamburger").on("click", function () {
             $(".nav__mobileMenu").slideToggle();
+        });
+        $(".sectionTitle").on("click", function () {
+            $(this).next().slideToggle('slow')
         });
     </script>
 </body>
