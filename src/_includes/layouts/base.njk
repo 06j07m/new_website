@@ -1,3 +1,15 @@
+---
+{
+    "menu": [
+        {"slug": "", "name": "Home"},
+        {"slug": "coding", "name": "Coding"},
+        {"slug": "design", "name": "Design"},
+        {"slug": "research", "name": "Research"},
+        {"slug": "contact", "name": "Contact"}
+    ]
+}
+---
+
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -34,4 +46,9 @@
         {{ content | safe }}
     </main>
     {% include "../partials/footer.njk" %}
+    <script>
+        $(".nav__hamburger").on("click", function () {
+            $(".nav__mobileMenu").slideToggle();
+        });
+    </script>
 </body>

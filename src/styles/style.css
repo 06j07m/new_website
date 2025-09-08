@@ -10,6 +10,47 @@
         /* change to vertical stacking if screen is small */
         flex-direction: column-reverse;
     }
+
+	.nav--desktop {
+		display: none;
+	}
+
+	.nav__mobileMenu {
+		/* make the menu items vertical and centered */
+		display: none;
+		flex-direction: column;
+		padding: 12px;
+		text-align: center;
+
+		/* on its own row in the flexbox */
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	
+	.subtitle {
+		/* font */
+		font-size: 24pt;
+	}
+
+	.columns {
+		/* make 2 columns */
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+
+		/* space in between columns */
+		column-gap: 24px;
+	}
+
+	.nav--mobile {
+		display: none;
+	}
+
+	.nav__mobileMenu {
+		display: none;
+	}
 }
 
 
@@ -21,11 +62,6 @@
 .link {
 	/* make links purple */
 	color: #693d94;
-}
-
-.subtitle {
-	/* font */
-	font-size: 24pt;
 }
 
 .siteIcon--medium {
@@ -56,6 +92,25 @@
 	padding-right: 12px;
 }
 
+.nav__hamburger, .nav__close {
+	/* remove button background and border */
+	/* background: none;
+	border: none; */
+
+	/* make icon larger */
+	color: #000000;
+	font-size: 14pt;
+}
+
+.navTab--mobile {
+	/* add padding and margin to mobile menu items */
+	padding: 8px;
+	margin: 0px auto;
+
+	/* make text same size as home icon */
+	font-size: 14pt
+}
+
 .me {
     /* resize */
     width: 200px;
@@ -64,17 +119,7 @@
     border-radius: 50%;
     
     /* align top with text */
-    margin-top: 48px;
-}
-
-.columns {
-    /* make 2 columns */
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-
-	/* space in between columns */
-	column-gap: 24px;
+    /* margin-top: 48px; */
 }
 
 .project {

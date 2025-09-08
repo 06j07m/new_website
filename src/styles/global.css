@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
-    .main {
-        /* make it bigger on small screens */
+	.main {
+		/* make it bigger on small screens */
         width: 80%;
         padding: 18px;
         /* allow word wrap? */
@@ -15,6 +15,21 @@
     
 }
 
+@media screen and (min-width: 480px) {
+	.main {
+		/* normal size */
+		width: 60%;
+		padding: 48px;
+	}
+	.title {
+		font-size: 42pt;
+	}
+	.sectionTitle {
+		/* font */
+		font-size: 18pt;
+	}
+}
+
 .site {
     /* font across all pages */
     font-family: "Roboto Mono", monospace;
@@ -26,10 +41,7 @@
 
 .main {
 	/* margins, center align */
-	width: 60%;
 	margin: 0px auto;
-
-	padding: 48px;
 
 	/* take up the entire page so footer stays at the bottom */
 	min-height: 80%;
@@ -40,12 +52,6 @@
 	font-family: "Roboto Slab", serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 42pt;
-}
-
-.sectionTitle {
-	/* font */
-	font-size: 18pt;
 }
 
 .sectionBody {
@@ -61,7 +67,10 @@
 	/* dividing border */
 	border-bottom: 2px solid #7d7585;
 
+	/* responsive display */
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .nav__left {
