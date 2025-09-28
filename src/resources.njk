@@ -1,10 +1,11 @@
 ---
-title: bookmarks
+title: resources
 layout: layouts/base.njk
 ---
 
 <h1 class="title">{{ title }}</h1>
 
+<p>Some links that I've collected over the years:</p>
 
 <ul class="links fa-ul">
     {% for itm in resourcepages %}
@@ -12,7 +13,7 @@ layout: layouts/base.njk
             <span class="fa-li links__icon">
                 <i class="fa-solid fa-chevron-right"></i>
             </span>
-            <a class="link link--big" href="/~mliu102/resources/{{ itm.slug }}">
+            <a class="link" href="/~mliu102/resources/{{ itm.slug }}">
                 {{ itm.name }}
             </a>
         </li>

@@ -177,15 +177,11 @@
 
 .nav__hamburger,
 .nav__close {
-	/* remove button background and border */
-	/* background: none;
-	border: none; */
-
 	/* make icon larger */
 	color: #000000;
 	font-size: 14pt;
+	padding: 4px 8px;
 }
-
 
 .navTab {
 	/* pad links in navigation */
@@ -320,10 +316,6 @@
 .link {
 	/* make links purple */
 	color: #693d94;
-}
-
-.link--big {
-	font-size: 16pt;
 }
 
 .linkList {
