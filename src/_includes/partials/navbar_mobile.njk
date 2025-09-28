@@ -1,0 +1,26 @@
+<header class="nav nav__mobileWrap">
+    <div class="nav--mobile">
+        <div class="nav__left">
+            <a class="navTab--home" href="/~mliu102/">
+                <span class="nav__siteIcon">
+                    <img class="siteIcon--medium" src="/~mliu102/images/favicon.ico" />
+                </span>
+                <span class="nav__siteTitle">
+                    Mona Liu
+                </span>
+            </a>
+        </div>
+        <div class="nav__right">
+            <button class="nav__hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </div>
+    <div class="nav__mobileMenu">
+        {% for itm in menu %}
+            <div class="navTab--mobile">
+                <a class="navTab__link link" href="/~mliu102/{{ itm.slug }}">{{ itm.name }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</header>

@@ -5,12 +5,8 @@
         {"slug": "coding", "name": "Coding"},
         {"slug": "design", "name": "Design"},
         {"slug": "research", "name": "Research"},
+        {"slug": "resources", "name": "Resources"},
         {"slug": "contact", "name": "Contact"}
-    ],
-    "menu_internal" : [
-        {"slug": "bookmarks", "name": "useful bookmarks"},
-        {"slug": "software", "name": "software bookmarks"},
-        {"slug": "school", "name": "school bookmarks"}
     ]
 }
 ---
@@ -27,19 +23,15 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
     <link rel="stylesheet" href="/~mliu102/styles/fonts.css"/>
-    <link rel="stylesheet" href="/~mliu102/styles/global.css"/>
+    <link rel="stylesheet" href="/~mliu102/styles/util.css"/>
+    <link rel="stylesheet" href="/~mliu102/styles/style.css"/>
 
-    {% if '/i/' in page.url %}
-        <title>{{ title }}</title>
-        <link rel="stylesheet" href="/~mliu102/styles/style_i.css"/>
-    {% else %}
-        <title>{{ title }} | Mona Liu</title>
-        <link rel="stylesheet" href="/~mliu102/styles/style.css"/>
-    {% endif %}
+    <title>{{ title }} | Mona Liu</title>
 </head>
 
 <body class="site">
     {% include "../partials/navbar.njk" %}
+    {% include "../partials/navbar_mobile.njk" %}
     <main class="main">
         {{ content | safe }}
     </main>
@@ -48,7 +40,7 @@
         $(".nav__hamburger").on("click", function () {
             $(".nav__mobileMenu").slideToggle();
         });
-        $(".sectionTitle").on("click", function () {
+        $(".sectionTitle--collapsible").on("click", function () {
             $(this).next().slideToggle('slow')
         });
     </script>

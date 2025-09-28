@@ -1,15 +1,18 @@
 ---
-title: links
+title: bookmarks
 layout: layouts/base.njk
 ---
 
+<h1 class="title">{{ title }}</h1>
+
+
 <ul class="links fa-ul">
-    {% for itm in menu_internal %}
+    {% for itm in resourcepages %}
         <li class="links__item">
             <span class="fa-li links__icon">
                 <i class="fa-solid fa-chevron-right"></i>
             </span>
-            <a class="link link--big" href="/~mliu102/i/{{ itm.slug }}">
+            <a class="link link--big" href="/~mliu102/resources/{{ itm.slug }}">
                 {{ itm.name }}
             </a>
         </li>

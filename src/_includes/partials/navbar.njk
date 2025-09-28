@@ -1,57 +1,19 @@
-{% if '/i/' in page.url %}
-    <header class="nav">
-        <div class="nav__left">
-            <span class="navTab">
-                <a class="navTab__link link" href="/~mliu102/i/">~</a>
-                /
-                {% if page.url != '/i/' %}
-                    {{ title }}
-                {% endif %}
+<header class="nav nav--desktop">
+    <div class="nav__left">
+        <a class="navTab--home" href="/~mliu102/">
+            <span class="nav__siteIcon">
+                <img class="siteIcon--medium" src="/~mliu102/images/favicon.ico" />
             </span>
-        </div>
-    </header>
-{% else %}
-    <header class="nav nav--desktop">
-        <div class="nav__left">
-            <a class="navTab--home" href="/~mliu102/">
-                <span class="nav__siteIcon">
-                    <img class="siteIcon--medium" src="/~mliu102/images/favicon.ico" />
-                </span>
-                <span class="nav__siteTitle">
-                    Mona Liu
-                </span>
-            </a>
-        </div>
-        <div class="nav__right">
-            {% for itm in menu %}
-                <span class="navTab">
-                    <a class="navTab__link link" href="/~mliu102/{{ itm.slug }}">{{ itm.name }}</a>
-                </span>
-            {% endfor %}
-        </div>
-    </header>
-    <header class="nav nav--mobile">
-        <div class="nav__left">
-            <a class="navTab--home" href="/~mliu102/">
-                <span class="nav__siteIcon">
-                    <img class="siteIcon--medium" src="/~mliu102/images/favicon.ico" />
-                </span>
-                <span class="nav__siteTitle">
-                    Mona Liu
-                </span>
-            </a>
-        </div>
-        <div class="nav__right">
-            <button class="nav__hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </div>
-        <div class="nav__mobileMenu">
-            {% for itm in menu %}
-                <div class="navTab--mobile">
-                    <a class="navTab__link link" href="/~mliu102/{{ itm.slug }}">{{ itm.name }}</a>
-                </div>
-            {% endfor %}
-        </div>
-    </header>
-{% endif %}
+            <span class="nav__siteTitle">
+                Mona Liu
+            </span>
+        </a>
+    </div>
+    <div class="nav__right">
+        {% for itm in menu %}
+            <span class="navTab">
+                <a class="navTab__link link" href="/~mliu102/{{ itm.slug }}">{{ itm.name }}</a>
+            </span>
+        {% endfor %}
+    </div>
+</header>

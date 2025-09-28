@@ -4,7 +4,7 @@
   "main": "index.js",
    "scripts": {
     "dev": "eleventy --serve --incremental",
-    "save": "rm -rf public_html/* && eleventy",
+    "build": "rm -rf public_html/* && eleventy",
     "deploy": "tar -c -z -f public_html.tar.gz public_html/* && scp public_html.tar.gz mimi:"
   },
   "keywords": [],

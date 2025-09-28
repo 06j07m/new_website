@@ -1,18 +1,39 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+	.main {
+		/* make it bigger on small screens */
+		width: 80%;
+		padding: 18px;
+		/* allow word wrap? */
+		word-wrap: break-word;
+	}
+
+	.title {
+		font-size: 28pt;
+	}
+
+	.sectionTitle {
+		font-size: 14pt;
+	}
+
 	.subtitle {
 		font-size: 18pt;
 	}
-	
-    .columns {
+
+	.columns {
 		/* make 2 columns */
 		display: flex;
 		justify-content: space-between;
-        /* change to vertical stacking if screen is small */
-        flex-direction: column-reverse;
-    }
+		/* change to vertical stacking if screen is small */
+		flex-direction: column-reverse;
+	}
 
 	.nav--desktop {
 		display: none;
+	}
+
+	.nav--mobile {
+		display: flex;
+		flex-direction: row;
 	}
 
 	.nav__mobileMenu {
@@ -25,10 +46,25 @@
 		/* on its own row in the flexbox */
 		width: 100%;
 	}
+
 }
 
-@media screen and (min-width: 480px) {
-	
+@media screen and (min-width: 600px) {
+	.main {
+		/* normal size */
+		width: 60%;
+		padding: 48px;
+	}
+
+	.title {
+		font-size: 42pt;
+	}
+
+	.sectionTitle {
+		/* font */
+		font-size: 18pt;
+	}
+
 	.subtitle {
 		/* font */
 		font-size: 24pt;
@@ -43,8 +79,19 @@
 		/* space in between columns */
 		column-gap: 24px;
 	}
+	
+	.columns__col {
+		max-width: 30rem;
+	}
 
-	.nav--mobile {
+	.nav--desktop{
+		/* responsive display */
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.nav__mobileWrap {
 		display: none;
 	}
 
@@ -53,15 +100,26 @@
 	}
 }
 
+.site {
+	/* font across all pages */
+	font-family: "Roboto Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+
+	margin: 0;
+}
+
+.main {
+	/* margins, center align */
+	margin: 0px auto;
+
+	/* take up the entire page so footer stays at the bottom */
+	min-height: 80%;
+}
 
 .site {
 	/* background across regular pages */
 	background-color: #f4f0f8;
-}
-
-.link {
-	/* make links purple */
-	color: #693d94;
 }
 
 .siteIcon--medium {
@@ -69,22 +127,47 @@
 	width: 24px;
 }
 
-.navTab {
-	/* pad links in navigation */
-	padding-left: 12px;
-	padding-right: 12px;
+.title {
+	/* font */
+	font-family: "Roboto Slab", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.navTab--home{
-	/* site title is bigger */
-	font-size: 14pt;
-	
-	/* icon and title also flexbox */
-	display: flex;
+.sectionTitle {
+	/* font */
+	font-family: "Roboto Slab", serif;
+}
 
-	/* make it not look like a link */
-	color: #000000;
-	text-decoration: none;
+.sectionTitle--collapsible {
+	/* change pointer to indicate accordion */
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.sectionBody {
+	/* font */
+	font-size: 12pt;
+}
+
+.nav {
+	/* leave space around content */
+	padding: 16px;
+	margin: 0;
+
+	/* dividing border */
+	border-bottom: 2px solid #7d7585;
+}
+
+.nav__left {
+	/* keep links to the very right */
+	flex-grow: 1;
+}
+
+.nav__right {
+	/* links also flexbox */
+	display: flex;
+	
 }
 
 .nav__siteIcon {
@@ -92,7 +175,8 @@
 	padding-right: 12px;
 }
 
-.nav__hamburger, .nav__close {
+.nav__hamburger,
+.nav__close {
 	/* remove button background and border */
 	/* background: none;
 	border: none; */
@@ -100,6 +184,25 @@
 	/* make icon larger */
 	color: #000000;
 	font-size: 14pt;
+}
+
+
+.navTab {
+	/* pad links in navigation */
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.navTab--home {
+	/* site title is bigger */
+	font-size: 14pt;
+
+	/* icon and title also flexbox */
+	display: flex;
+
+	/* make it not look like a link */
+	color: #000000;
+	text-decoration: none;
 }
 
 .navTab--mobile {
@@ -111,15 +214,69 @@
 	font-size: 14pt
 }
 
-.me {
-    /* resize */
-    width: 200px;
+.footer {
+	/* border */
+	border-top: 2px solid #7d7585;
 
-    /* round it */
-    border-radius: 50%;
-    
-    /* align top with text */
-    /* margin-top: 48px; */
+	/* spacing and centre */
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+}
+
+.copyright {
+	/* small text */
+	font-size: 9pt;
+}
+
+.construction {
+	/* border */
+	border: solid #e6c317 2px;
+	border-radius: 10px;
+
+	/* background */
+	background-color: #eee3ae;
+
+	/* flex display */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	/* make it only be as wide as it needs */
+	padding: 8px;
+	max-width: fit-content;
+}
+
+.construction__icon {
+	/* make it big */
+	font-size: 48px;
+
+	/* spacing */
+	margin: 12px;
+}
+
+.construction__text {
+	/* spacing */
+	margin: 12px;
+}
+
+.img--me {
+	/* resize */
+	width: 200px;
+
+	/* round it */
+	border-radius: 50%;
+
+	/* align top with text */
+	/* margin-top: 48px; */
+}
+
+.img--jeff {
+	/* resize */
+	width: 200px;
+
+	/* centre on page */
+	margin: 24px 0px;
 }
 
 .project {
@@ -151,11 +308,37 @@
 	margin: 8px 0px;
 }
 
-.projectTools{
+.projectTools {
 	/* make it small */
 	font-size: 10pt;
 	font-style: italic;
 
 	/* closer to title than description */
 	margin-top: 4px;
+}
+
+.link {
+	/* make links purple */
+	color: #693d94;
+}
+
+.link--big {
+	font-size: 16pt;
+}
+
+.linkList {
+	display: none;
+}
+
+.linkList__item {
+	line-height: 1.5em;
+}
+
+.links__item {
+	/* make list item icon and text aligned */
+	display: flex;
+	align-items: center;
+
+	/* space out a bit */
+	padding: 2px 0px;
 }
