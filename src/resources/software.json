@@ -16,7 +16,7 @@
         ]
     },
     {
-        "section": "wiki, notes, markdown",
+        "section": "wiki, notes, knowledge management",
         "bookmarks": [
             {"url": "https://obsidian.md/", "name": "obsidian"},
             {"url": "https://evernote.com/", "name": "evernote"},
@@ -73,7 +73,8 @@
             {"url": "https://firedraft.io/", "name": "firedraft.io"},
             {"url": "https://www.tangentnotes.com/", "name": "tangent notes"},
             {"url": "https://notejoy.com/", "name": "notejoy"},
-            {"url": "https://boostnote.io/", "name": "boostnote"}
+            {"url": "https://boostnote.io/", "name": "boostnote"},
+            {"url": "https://tana.inc/", "name": "tana"}
         ]
     },
     {
@@ -394,6 +395,12 @@
             {"url": "https://www.spacejock.com/yWriter7.html", "name": "ywriter"},
             {"url": "https://novascriber.home.blog/", "name": "novascriber"},
             {"url": "https://ostorybook.eu/v6/fr/telechargement.html", "name": "ostorybook (required jdk)"}
+        ]
+    },
+    {
+        "section": "3d modelling, CAD, circuits, maker", 
+        "bookmarks": [
+            {"url": "https://www.kicad.org/", "name": "kicad"}
         ]
     }
 ]}
