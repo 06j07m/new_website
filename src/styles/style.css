@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @media screen and (max-width: 600px) {
 	.main {
 		/* make it bigger on small screens */

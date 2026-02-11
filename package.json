@@ -2,7 +2,7 @@
   "name": "website2",
   "version": "1.0.0",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "dev": "eleventy --serve --incremental",
     "build": "rm -rf public_html/* && eleventy",
     "deploy": "tar -c -z -f public_html.tar.gz public_html/* && scp public_html.tar.gz mimi:"
@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
   }
 }
