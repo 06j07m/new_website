@@ -286,7 +286,8 @@
             {"url": "https://www.pixilart.com/draw?ref=home-page", "name": "pixilart"},
             {"url": "https://kleki.com/", "name": "kleki"},
             {"url": "http://rawtherapee.com/", "name": "rawtherapee"},
-            {"url": "https://kreska.art/app/", "name": "kreska"}
+            {"url": "https://kreska.art/app/", "name": "kreska"},
+            {"url": "https://www.darktable.org/", "name": "darktable"}
 
 
         ]
