@@ -180,7 +180,8 @@
             {"url": "https://usemodify.com/", "name": "use & modify"},
             {"url": "https://www.suvatypefoundry.ee/", "name": "suva type foundry"},
             {"url": "https://uncut.wtf/", "name": "uncut.wtf"},
-            {"url": "https://nationalparktypeface.com/", "name": "national park typeface"}
+            {"url": "https://nationalparktypeface.com/", "name": "national park typeface"},
+            {"url": "https://www.programmingfonts.org/#gohufont-14", "name": "programming fonts"}
         ]
 	},
     {
@@ -530,7 +531,9 @@
             {"url": "https://windowsterminalthemes.dev", "name": "windows terminal themes"},
             {"url": "https://slack-themes.vercel.app/about", "name": "slack themes"},
             {"url": "https://slackthemes.net/", "name": "slack themes 2"},
-            {"url": "https://github.com/daylerees/colour-schemes?tab=readme-ov-file#visual-studio-code", "name": "dayle rees colour schemes"}
+            {"url": "https://github.com/daylerees/colour-schemes?tab=readme-ov-file#visual-studio-code", "name": "dayle rees colour schemes"},
+            {"url": "https://open-vsx.org/?category=Themes&sortBy=relevance&sortOrder=desc", "name": "vs code compatible themes"},
+            {"url": "https://github.com/unixorn/awesome-zsh-plugins?tab=readme-ov-file#themes", "name": "awesome zsh - themes"}
         ]
 	},
     {
@@ -557,7 +560,10 @@
             {"url": "https://emojikitchen.com/tools/wallpaper-maker", "name": "emoji wallpaper"},
             {"url": "https://readme.so/editor", "name": "readme.so"},
             {"url": "https://haveibeenpwned.com/PwnedWebsites", "name": "have i been pwned"},
-            {"url": "https://visualgo.net/en", "name": "algorithm visualizer"}
+            {"url": "https://visualgo.net/en", "name": "algorithm visualizer"},
+            {"url": "https://www.mathcha.io/", "name": "math diagram editor"},
+            {"url": "https://whenisgood.net/", "name": "when is good"},
+            {"url": "https://www.when2meet.com/", "name": "when 2 meet"}
         ]
 	},
     {
@@ -579,7 +585,8 @@
             {"url": "https://stacksorted.com/buttons", "name": "stacksorted"},
             {"url": "https://logodust.com/", "name": "logodust"},
             {"url": "https://www.designsystemsforfigma.com/", "name": "design systems for figma"},
-            {"url": "https://www.theolympicdesign.com/olympic-games/pictograms/", "name": "olympic graphic design"}
+            {"url": "https://www.theolympicdesign.com/olympic-games/pictograms/", "name": "olympic graphic design"},
+            {"url": "https://github.com/swyxio/spark-joy?tab=readme-ov-file", "name": "design resources that spark joy"}
         ]
     },
     {
