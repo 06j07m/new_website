@@ -197,10 +197,6 @@
 
 	/* icon and title also flexbox */
 	display: flex;
-
-	/* make it not look like a link */
-	color: #000000;
-	text-decoration: none;
 }
 
 .navTab--mobile {
@@ -318,6 +314,12 @@
 .link {
 	/* make links purple */
 	color: #693d94;
+}
+
+.link--hidden {
+	/* make it not look like a link */
+	color: #000000;
+	text-decoration: none;
 }
 
 .linkList {
