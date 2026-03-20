@@ -4,7 +4,6 @@
             "name": "McRUN Club Website",
             "tools": "Webflow",
             "description": "The club website for McGill Students Running Club",
-            "image": "mcrun-cover.png",
             "links": [
                 {
                     "url": "mcrun.webflow.io",
@@ -16,7 +15,6 @@
             "name": "Personal Website",
             "tools": "11ty (eleventy), Nunjucks, HTML, CSS, JavaScript",
             "description": "My personal portfolio and bookmarks website (this!)",
-            "image": "site-cover.png",
             "links": [
                 {
                     "url": "cs.mcgill.ca/~mliu102/",
@@ -32,7 +30,6 @@
             "name": "Marteler le Martlet",
             "tools": "Unity, C#, GraphicsGale",
             "description": "McGill-themed idle clicker game; category winner at McHacks 12",
-            "image": "marteler-cover.png",
             "links": [
                 {
                     "url": "marteler-le-martelet",
@@ -48,7 +45,6 @@
             "name": "Sociouts",
             "tools": "Javascript, Next.js, Express, MongoDB, OpenStreetMaps",
             "description": "Social outing planner; entry at Codejam 14",
-            "image": "sociouts-cover.png",
             "links": [
                 {
                     "url": "sociouts",
@@ -64,7 +60,6 @@
             "name": "MADCAS",
             "tools": "Python, Flask, beautifulsoup",
             "description": "Marvel and DC character appearance sorter that works by scraping the wikis",
-            "image": "madcas-cover.png",
             "links": [
                 {
                     "url": "06j07m/MADCAS",
@@ -76,7 +71,6 @@
             "name": "Supernatural Roulette",
             "tools": "Python, Flask, Figma",
             "description": "Random episode generator for Supernatural (2005-2020)",
-            "image": "roulette-cover.png",
             "links": [
                 {
                     "url": "06j07m/supernatural-roulette",
@@ -88,7 +82,6 @@
             "name": "WiseBite",
             "tools": "Python, streamlit, tesseract",
             "description": "AI tool to scan nutrition labels; entry at MAIS Hacks 2023",
-            "image": "wisebite-cover.png",
             "links": [
                 {
                     "url": "cd-lwr48a",
@@ -104,7 +97,6 @@
             "name": "Simple Solitaire",
             "tools": "Java Swing",
             "description": "Basic Klondike Solitaire game from scratch using linked lists",
-            "image": "ss-cover.png",
             "links": [
                 {
                     "url": "06j07m/simple-solitaire",
@@ -116,7 +108,6 @@
             "name": "Markanoid",
             "tools": "Java Swing",
             "description": "Mock Arkanoid from scratch with 2 different levels",
-            "image": "markanoid-cover.png",
             "links": [
                 {
                     "url": "06j07m/markanoid",
@@ -128,7 +119,6 @@
             "name": "Typething",
             "tools": "Python, Pygame",
             "description": "Typing game from scratch with different modes",
-            "image": "typething-cover.png",
             "links": [
                 {
                     "url": "06j07m/typething",
@@ -140,7 +130,6 @@
             "name": "Retro Paint",
             "tools": "Python, Pygame, tkinter",
             "description": "Drawing game from scratch with tools, colour picker, open/save, and music",
-            "image": "retropaint-cover.png",
             "links": [
                 {
                     "url": "06j07m/retro-paint",
@@ -152,7 +141,6 @@
             "name": "More On Post Secondary Website",
             "tools": "Wix, Inkscape",
             "description": "Informative website on post-secondary options for students; made for BLC",
-            "image": "mops-cover.png",
             "links": [
                 {
                     "url": "moreonpostsecondary.wordpress.com",
